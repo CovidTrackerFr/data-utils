@@ -1,0 +1,67 @@
+{
+    "france_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-issus-des-appariements-entre-si-vic-si-dep-et-vac-si&q=&rows=-1&facet=date&facet=vac_status",
+    "region_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-regionaux-issus-des-appariements-entre-si-vic-si-dep-et-vac-s&q=&rows=-1&start=0&refine.region={region}",
+    "year": 2021,
+    "round_to_decimal": 2,
+    "regions": {
+        "FR": "France",
+        "ARA": "Auvergne-Rhône-Alpes",
+        "BFC": "Bourgogne-Franche-Comté",
+        "BRE": "Bretagne",
+        "COR": "Corse",
+        "CVL": "Centre-Val de Loire",
+        "GES": "Grand Est",
+        "GUA": "Guadeloupe",
+        "GUY": "Guyane",
+        "HDF": "Hauts-de-France",
+        "IDF": "Ile-de-France",
+        "LRE": "La Réunion",
+        "MAR": "La Martinique",
+        "MAY": "Mayotte",
+        "NAQ": "Nouvelle Aquitaine",
+        "NOR": "Normandie",
+        "OCC": "Occitanie",
+        "PAC": "Provence-Alpes-Côte d'Azur",
+        "PDL": "Pays de la Loire"
+    },
+
+    "population": {
+        "FR": 67407241,
+        "ARA": 8090442,
+        "BFC": 2784858,
+        "BRE": 3371158,
+        "COR": 349269,
+        "CVL": 2561451,
+        "GES": 5522476,
+        "GUA": 375693,
+        "GUY": 294146,
+        "HDF": 5975757,
+        "IDF": 12324261,
+        "LRE": 857809,
+        "MAR": 354824,
+        "MAY": 288926,
+        "NAQ": 6039092,
+        "NOR": 3305218,
+        "OCC": 5985697,
+        "PAC": 5985697,
+        "PDL": 3837166
+    },
+
+    "groupe_vaccinés": [
+        "Vaccination complète"
+    ],
+    "groupe_non_vaccinés": [
+        "Non-vaccinés",
+        "Primo dose efficace",
+        "Primo dose récente"
+    ],
+    "data_type_france": {
+        "deces": "dc",
+        "hospitalisation_conventionnelle": "hc",
+        "soins_critiques": "sc"
+    },
+    "data_type_regions": {
+        "hospitalisation_conventionnelle": "hc",
+        "soins_critiques": "sc"
+    }
+}
