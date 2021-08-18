@@ -41,7 +41,7 @@ def export_results_json(content, file_name, region_trigram):
 
 class Vaximpact:
     def __init__(self, api_name, api_url, trigram):
-        self.api_name = api_name,
+        self.api_name = api_name
         self.api_url = api_url
         self.trigram = trigram
 
