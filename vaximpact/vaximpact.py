@@ -1,16 +1,20 @@
+# -*-coding:Latin-1 -*
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
 import json
 import logging
 from pathlib import Path
+import os
+
+PATH = os.getcwd() + "/vaximpact/"
 
 logging.basicConfig(format='%(asctime)-15s %(message)s')
 logger = logging.getLogger("VaxImpact-Data")
 logger.setLevel(logging.INFO)
 
 def get_config():
-    with open("config_vaximpact.json", 'r', encoding="UTF-8") as config_file:
+    with open(PATH+"config_vaximpact.json", 'r', encoding="UTF-8") as config_file:
         config = json.load(config_file)
     return config
 
@@ -34,8 +38,8 @@ def get_start_and_end_date_from_calendar_week(year, calendar_week):
         return monday, monday + timedelta(days=6.9)
 
 def export_results_json(content, file_name, region_trigram):
-    Path(f"output/{region_trigram}").mkdir(parents=True, exist_ok=True)
-    with open(f'output/{region_trigram}/{file_name}.json', 'w', encoding="UTF-8") as outfile:
+    Path(PATH + f"output/{region_trigram}").mkdir(parents=True, exist_ok=True)
+    with open(PATH +f'output/{region_trigram}/{file_name}.json', 'w', encoding="UTF-8") as outfile:
         json.dump(content, outfile, indent=2, ensure_ascii=False)
     logger.info(f"[SUCCESS] - File {file_name} has been exported.")
 
