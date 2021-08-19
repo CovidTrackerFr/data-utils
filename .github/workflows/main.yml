@@ -1,0 +1,36 @@
+name: Python Script
+
+# Controls when the action will run. 
+on:
+  schedule:
+  - cron: "30 17 * * *" # Every hour on fridays
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+    - name: VaxImpact
+      run: |
+        python vaximpact/vaximpact.py
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: VaxImpact update
+    
