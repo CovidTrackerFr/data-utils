@@ -143,7 +143,7 @@ class Vaximpact:
     
                 event_list[f"{data_name}"] = {"risque_relatif":risque_relatif, "FER_exposes" : FER_exposes, "FER_population":FER_population} 
             stats_by_week[week_number] = {"week_start_date" : start_date, "week_end_date" : end_date, "vaccination_rate" : vaccination_rate, "data" : event_list}
-        global_dict["last_updated"]=datetime.today().strftime("%d/%m/%Y %H:%M:%S")
+        global_dict["last_updated"]=datetime.today().strftime("%Y/%m/%d %H:%M:%S")
         global_dict["data_by_week"] = {key:value for (key, value) in sorted(stats_by_week.items())}
         logger.info(f"[SUCCESS] - Statistics have been rendered until {end_date} included.")
 
