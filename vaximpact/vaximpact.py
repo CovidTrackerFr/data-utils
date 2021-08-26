@@ -4,6 +4,9 @@ from collections import defaultdict
 import json
 import logging
 from pathlib import Path
+import os
+
+PATH = os.getcwd() + "/vaximpact/"
 
 logging.basicConfig(format="%(asctime)-15s %(message)s")
 logger = logging.getLogger("VaxImpact-Data")
@@ -153,44 +156,7 @@ class Vaximpact:
 
                 event_list[f"{data_name}"] = {"risque_relatif": risque_relatif, "FER_exposes": FER_exposes, "FER_population": FER_population}
             stats_by_week[week_number] = {"week_start_date": start_date, "week_end_date": end_date, "vaccination_rate": vaccination_rate, "data": event_list}
-
-            # taux_positivité_vac=(week["Vaccinés"]["nb_pcr0"]/week["Vaccinés"]["nb_pcr"])*100
-            # taux_positivité_nonvac=(week["Pas_vaccinés"]["nb_pcr0"]/week["Pas_vaccinés"]["nb_pcr"])*100
-            # if taux_positivité_vac == 0:
-            #     risque_relatif_contamination = -1
-            #     FER_exposes_cas = 100
-            # else:
-            #     risque_relatif_contamination=((taux_positivité_nonvac/taux_positivité_vac))
-            #     if risque_relatif_contamination == 0:
-            #         FER_exposes_cas = -1
-            #     else:
-            #         FER_exposes_cas = ((risque_relatif_contamination-1)/risque_relatif_contamination)*100
-            # if week["Pas_vaccinés"]["nb_pcr0"]+week["Vaccinés"]["nb_pcr0"] ==0:
-            #     FER_population_cas=-1
-            # else:
-            #     FER_population_cas=(FER_exposes_cas*(week["Pas_vaccinés"]["nb_pcr0"]/(week["Pas_vaccinés"]["nb_pcr0"]+week["Vaccinés"]["nb_pcr0"])))
-
-            # taux_positivité_avec_symptomes_vac=(week["Vaccinés"]["nb_pcr_sympt0"]/week["Vaccinés"]["nb_pcr"])*100
-            # taux_positivité_avec_symptomes_nonvac=(week["Pas_vaccinés"]["nb_pcr_sympt0"]/week["Pas_vaccinés"]["nb_pcr"])*100
-            # if taux_positivité_avec_symptomes_vac==0:
-            #     risque_relatif_cas_symptomatique =-1
-            #     FER_exposes_sympto = 100
-            # else:
-            #     risque_relatif_cas_symptomatique=((taux_positivité_avec_symptomes_nonvac/taux_positivité_avec_symptomes_vac))
-            #     if risque_relatif_cas_symptomatique == 0:
-            #         FER_exposes_sympto = -1
-            #     else:
-            #         FER_exposes_sympto = ((risque_relatif_cas_symptomatique-1)/risque_relatif_cas_symptomatique)*100
-            # if week["Pas_vaccinés"]["nb_pcr_sympt0"]+week["Vaccinés"]["nb_pcr_sympt0"] == 0:
-            #     FER_population_sympto=-1
-            # else:
-            #     FER_population_sympto=(FER_exposes_cas*(week["Pas_vaccinés"]["nb_pcr_sympt0"]/(week["Pas_vaccinés"]["nb_pcr_sympt0"]+week["Vaccinés"]["nb_pcr_sympt0"])))
-
-            # if self.trigram=="FR":
-            #     stats_by_week[week_number] = {"week_start_date" : start_date, "week_end_date" : end_date, "deces" : {"risque_relatif" : round(risque_relatif_deces,2),"FER_exposes": round(FER_exposes_deces,2), "FER_population" : round(FER_population_deces,2)}, "reanimation" : {"risque_relatif" : round(risque_relatif_rea,2),"FER_exposes": round(FER_exposes_rea,2), "FER_population" : round(FER_population_rea,2)},"hospitalisation" : {"risque_relatif" : round(risque_relatif_hospi,2),"FER_exposes": round(FER_exposes_hospi,2), "FER_population" : round(FER_population_hospi,2)},"cas_positifs" : {"risque_relatif":round(risque_relatif_contamination,2), "FER_exposes":round(FER_exposes_cas,2), "FER_population":round(FER_population_cas,2)},"cas_symptomatiques" : {"risque_relatif":round(risque_relatif_cas_symptomatique,2),"FER_exposes":round(FER_exposes_sympto,2), "FER_population": round(FER_population_sympto,2)}}
-            # else:
-            #     stats_by_week[week_number] = {"week_start_date" : start_date, "week_end_date" : end_date, "reanimation" : {"risque_relatif" : round(risque_relatif_rea,2),"FER_exposes": round(FER_exposes_rea,2), "FER_population" : round(FER_population_rea,2)},"hospitalisation" : {"risque_relatif" : round(risque_relatif_hospi,2),"FER_exposes": round(FER_exposes_hospi,2), "FER_population" : round(FER_population_hospi,2)},"cas_positifs" : {"risque_relatif":round(risque_relatif_contamination,2), "FER_exposes":round(FER_exposes_cas,2), "FER_population":round(FER_population_cas,2)},"cas_symptomatiques" : {"risque_relatif":round(risque_relatif_cas_symptomatique,2),"FER_exposes":round(FER_exposes_sympto,2), "FER_population": round(FER_population_sympto,2)}}
-
+            
         global_dict["last_updated"] = datetime.today().strftime("%d/%m/%Y %H:%M:%S")
         global_dict["data_by_week"] = {key: value for (key, value) in sorted(stats_by_week.items())}
         logger.info(f"[SUCCESS] - Statistics for {self.api_name} have been rendered.")
