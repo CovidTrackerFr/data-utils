@@ -1,3 +1,4 @@
+ # coding: utf-8
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -14,7 +15,7 @@ logger.setLevel(logging.INFO)
 
 
 def get_config():
-    with open("config_vaximpact.json", "r", encoding="UTF-8") as config_file:
+    with open(PATH+"config_vaximpact.json", "r", encoding="UTF-8") as config_file:
         config = json.load(config_file)
     return config
 
