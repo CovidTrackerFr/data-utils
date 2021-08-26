@@ -24,7 +24,6 @@
         "PAC": "Provence-Alpes-Côte d'Azur",
         "PDL": "Pays de la Loire"
     },
-
     "population": {
         "FR": 67407241,
         "ARA": 8090442,
@@ -46,20 +45,25 @@
         "PAC": 5985697,
         "PDL": 3837166
     },
-
     "groupe_vaccinés": [
-        "Vaccination complète"
+        "Vaccination complète"    
     ],
     "groupe_non_vaccinés": [
         "Non-vaccinés"
-    ],
+        ],
     "data_type_france": {
-        "deces": "dc",
-        "hospitalisation_conventionnelle": "hc",
-        "soins_critiques": "sc"
+        "deces": "dc_pcr",
+        "hospitalisation_conventionnelle": "hc_pcr",
+        "soins_critiques": "sc_pcr",
+        "cas":{"data":"nb_pcr0", "pop_ref":"nb_pcr"},
+        "cas_symptomatiques":{"data":"nb_pcr_sympt0", "pop_ref":"nb_pcr"}
+
     },
     "data_type_regions": {
-        "hospitalisation_conventionnelle": "hc",
-        "soins_critiques": "sc"
+        "hospitalisation_conventionnelle": "hc_pcr",
+        "soins_critiques": "sc_pcr",
+        "cas":{"data":"nb_pcr0", "pop_ref":"nb_pcr"},
+        "cas_symptomatiques":{"data":"nb_pcr_sympt0", "pop_ref":"nb_pcr"}
+
     }
 }
