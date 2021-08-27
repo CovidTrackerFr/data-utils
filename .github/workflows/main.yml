@@ -3,7 +3,9 @@ name: Python Script
 # Controls when the action will run. 
 on:
   schedule:
-  - cron: "30 17 * * *" # Every hour on fridays
+  - cron: "*/20 * * * 5" # Every 20 mins on fridays
+  - cron: "0 */4 * * *" # Every 6 hours the other days
+
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
