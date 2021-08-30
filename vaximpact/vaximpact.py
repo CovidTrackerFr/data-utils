@@ -130,6 +130,7 @@ class Vaximpact:
                 if isinstance(data_code, dict):
                     pop_ref = data_code["pop_ref"]
                     data_code=data_code["data"]
+                    
                 if week["Vaccinés"][f"{data_code}"] == 0:
                     risque_relatif = "NaN"
                     FER_exposes = "Nan"
