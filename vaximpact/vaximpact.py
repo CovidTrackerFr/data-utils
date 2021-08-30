@@ -132,14 +132,14 @@ class Vaximpact:
                     data_code=data_code["data"]
                     
                 if week["Vaccinés"][f"{data_code}"] == 0:
-                    risque_relatif = "NaN"
-                    FER_exposes = "Nan"
-                    FER_population = "NaN"
+                    risque_relatif = -1
+                    FER_exposes = -1
+                    FER_population = -1
 
                 elif week["Pas_vaccinés"][f"{data_code}"] == 0:
-                    risque_relatif = f"NaN"
-                    FER_exposes = f"NaN"
-                    FER_population = f"NaN"
+                    risque_relatif = -1
+                    FER_exposes = -1
+                    FER_population = -1
 
                 else:
                     if pop_ref:
