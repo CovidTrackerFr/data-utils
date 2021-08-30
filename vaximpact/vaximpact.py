@@ -131,18 +131,14 @@ class Vaximpact:
                     pop_ref = data_code["pop_ref"]
                     data_code=data_code["data"]
                 if week["Vaccinés"][f"{data_code}"] == 0:
-                    risque_relatif = f"Non calculable - 0 {data_name} chez vaccinés"
-                    if week["Pas_vaccinés"][f"{data_code}"] == 0:
-                        FER_exposes = f"Non calculable - 0 {data_name} chez Non-vaccinés ni chez Vaccinés"
-                        FER_population = f"Non calculable - 0 {data_name} chez Non-vaccinés ni chez Vaccinés"
-                    else:
-                        FER_exposes = 100
-                        FER_population = round((FER_exposes * (week["Pas_vaccinés"][f"{data_code}"] / (week["Pas_vaccinés"][f"{data_code}"] + week["Vaccinés"][f"{data_code}"]))), ROUND_DECIMAL)
+                    risque_relatif = "NaN"
+                    FER_exposes = "Nan"
+                    FER_population = "NaN"
 
                 elif week["Pas_vaccinés"][f"{data_code}"] == 0:
-                    risque_relatif = f"Non calculable - 0 {data_name} chez Non-vaccinés"
-                    FER_exposes = f"Non calculable - 0 {data_name} chez Non-vaccinés"
-                    FER_population = f"Non calculable - 0 {data_name} chez Non-vaccinés"
+                    risque_relatif = f"NaN"
+                    FER_exposes = f"NaN"
+                    FER_population = f"NaN"
 
                 else:
                     if pop_ref:
