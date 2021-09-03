@@ -102,7 +102,7 @@ class Vaximpact:
             for a in record["fields"].keys():
                 if "date" in a or "vac_statut" in a or "effectif_j_7" in a or "region" in a:
                     continue
-                sum_by_week[week_number][vac_statut][a] += record["fields"][a]
+                sum_by_week[week_number][vac_statut][a] += int(record["fields"][a])
 
         logger.debug(f"[SUCCESS] - Successfully built data table {self.api_name}.")
         return sum_by_week
