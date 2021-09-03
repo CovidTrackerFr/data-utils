@@ -1,10 +1,10 @@
 {
-    "france_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-issus-des-appariements-entre-si-vic-si-dep-et-vac-si&q=&rows=-1&facet=date&facet=vac_status",
+    "france_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-par-age-issus-des-appariements-entre-si-vic-si-dep-et-vac-si&q=&rows=-1&start=0",
     "region_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-regionaux-issus-des-appariements-entre-si-vic-si-dep-et-vac-s&q=&rows=-1&start=0&refine.region={region}",
     "year": 2021,
     "round_to_decimal": 2,
+    "age_categories" : ["[0,19]", "[20,39]", "[40,59]","[60,79]", "[80;+]"],
     "regions": {
-        "FR": "France",
         "ARA": "Auvergne-Rhône-Alpes",
         "BFC": "Bourgogne-Franche-Comté",
         "BRE": "Bretagne",
@@ -52,12 +52,9 @@
         "Non-vaccinés"
         ],
     "data_type_france": {
-        "deces": "dc_pcr",
         "hospitalisation_conventionnelle": "hc_pcr",
         "soins_critiques": "sc_pcr",
-        "cas":{"data":"nb_pcr0", "pop_ref":"nb_pcr"},
-        "cas_symptomatiques":{"data":"nb_pcr_sympt0", "pop_ref":"nb_pcr"}
-
+        "cas":{"data":"nb_pcr0", "pop_ref":"nb_pcr"}
     },
     "data_type_regions": {
         "hospitalisation_conventionnelle": "hc_pcr",
