@@ -143,6 +143,7 @@ class Vaximpact:
                     vaccination_rate = round((age_data["Vaccinés"]["effectif_j_7"] / age_data["Ensemble"]["effectif_j_7"]) * 100, ROUND_DECIMAL)
 
                 event_list = {}
+
                 for data_name, data_code in data_type.items():
                     pop_ref = None
                     risque_relatif = None
@@ -154,21 +155,18 @@ class Vaximpact:
                         data_code = data_code["data"]
 
                     if age_data["Vaccinés"][f"{data_code}"] == 0 or age_data["Pas_vaccinés"][f"{data_code}"] == 0 or not age_data["Vaccinés"]["effectif_j_7"] or age_data["Vaccinés"]["effectif_j_7"] == 0 or not age_data["Pas_vaccinés"]["effectif_j_7"] or age_data["Pas_vaccinés"]["effectif_j_7"] == 0:
-                        risque_relatif = -1
-                        FER_exposes = -1
-                        FER_population = -1
+                        event_list[f"{data_name}"] = {"risque_relatif": -1, "FER_exposes": -1, "FER_population": -1}
                         continue
 
-                    if pop_ref: 
-                        if not age_data["Vaccinés"][f"{pop_ref}"] or age_data["Vaccinés"][f"{pop_ref}"] == 0 or age_data["Pas_vaccinés"][f"{pop_ref}"] or age_data["Pas_vaccinés"][f"{pop_ref}"] == 0 or age_data["Vaccinés"][f"{data_code}"] == 0 or age_data["Pas_vaccinés"][f"{data_code}"] == 0:
-                            risque_relatif = -1
-                            FER_exposes = -1
-                            FER_population = -1
+                    elif pop_ref: 
+                        if not age_data["Vaccinés"][f"{pop_ref}"] or age_data["Vaccinés"][f"{pop_ref}"] == 0 or not age_data["Pas_vaccinés"][f"{pop_ref}"] or age_data["Pas_vaccinés"][f"{pop_ref}"] == 0:
+                            event_list[f"{data_name}"] = {"risque_relatif": -1, "FER_exposes": -1, "FER_population": -1}
                             continue
-                        
+                            
                         risque_relatif = round((age_data["Pas_vaccinés"][f"{data_code}"] / age_data["Pas_vaccinés"][f"{pop_ref}"]) / (age_data["Vaccinés"][f"{data_code}"] / age_data["Vaccinés"][f"{pop_ref}"]), ROUND_DECIMAL)
                         FER_exposes = round(((risque_relatif - 1) / risque_relatif) * 100, ROUND_DECIMAL)
                         FER_population = round((FER_exposes * (age_data["Pas_vaccinés"][f"{data_code}"] / (age_data["Pas_vaccinés"][f"{data_code}"] + age_data["Vaccinés"][f"{data_code}"]))), ROUND_DECIMAL)
+                        event_list[f"{data_name}"] = {"risque_relatif": risque_relatif, "FER_exposes": -1, "FER_population": -1}
 
                     else:
                         risque_relatif = round(((age_data["Pas_vaccinés"][f"{data_code}"] / age_data["Vaccinés"][f"{data_code}"]) * (age_data["Vaccinés"]["effectif_j_7"] / age_data["Pas_vaccinés"]["effectif_j_7"])), ROUND_DECIMAL)
@@ -176,7 +174,7 @@ class Vaximpact:
                         FER_population = round((FER_exposes * (age_data["Pas_vaccinés"][f"{data_code}"] / (age_data["Pas_vaccinés"][f"{data_code}"] + age_data["Vaccinés"][f"{data_code}"]))), ROUND_DECIMAL)
 
                     event_list[f"{data_name}"] = {"risque_relatif": risque_relatif, "FER_exposes": FER_exposes, "FER_population": FER_population}
-                event_list["vaccination_rate"] = vaccination_rate
+                    event_list["vaccination_rate"] = vaccination_rate
                 age_list[age] = event_list
             stats_by_week[week_number] = {"week_start_date": start_date, "week_end_date": end_date, "vaccination_rate": vaccination_rate, "data": age_list}
                 
