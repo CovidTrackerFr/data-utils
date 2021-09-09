@@ -5,7 +5,7 @@ import json
 CWD = os.getcwd()
 
 def get_data():
-    return pd.read_csv(CWD + "/data/fr-en-situation_nationale_covid.csv", sep=";")
+    return pd.read_csv(CWD + "/data/fr-en-situation_nationale_covid.csv", sep=";").sort_values(by="date")
 
 def df_to_json(df):
     dict_json = {}
