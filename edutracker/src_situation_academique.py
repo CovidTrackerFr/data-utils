@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import json
+import numpy as np
 
 CWD = os.getcwd()
 
@@ -9,16 +10,23 @@ def get_data():
 
 def df_to_json(df):
     academies = list(df.academie.unique())
+    academies_nombre_classes_fermees=[]
 
     dict_json = {'academies': academies}
 
     for academie in academies:
+        
         df_academie = df[df.academie == academie]
         dict_academie = {}
         for col in df_academie.columns:
             if col not in ["academie"]:
                 dict_academie[col] = df_academie[col].fillna(0).to_list()
         dict_json[academie] = dict_academie
+        academies_nombre_classes_fermees += [df_academie.nombre_classes_fermees.values[-1]]
+
+    argsort = np.argsort(-np.array(academies_nombre_classes_fermees))
+    dict_json["academies_sort_by_nombre_classes_fermees"] = list(np.array(academies)[argsort])
+
     return dict_json
 
 def export_json(data_json):
