@@ -52,6 +52,7 @@ Une consonne minuscule = un calcul
 * s : somme (un cumul)
 * d : délai, avant un changement d'état
 * j : le jour j
+* e : écart
 
 ---
 
@@ -169,6 +170,7 @@ Sheet2 - S2
 * S2-BJ, Dsref : somme des incidences de référence des décès hospirtaliers, Dsref = Dsref(j-1)+Diref
 * S2-BK, Tous : somme des états des personnes passées par l'état P, vu comme toutes les personnes qui se sont soignées à domicile plus tous les patients en cours d'hospitalisation plus tous les patients décédés à l'hôpital plus tous les patients retournés à domicile plus tous les asymptomatiques, Tous = M+H+D+R+A
 * S2-BL, dTous : écart delta de Tous avec le nombre de personnes détectées positives, vérification générale, dTous = (P(tous)-Tous)/P(tous)
+* S2-BM, sref : Vérification cumul incidences de référence SPF : sref = Hsref-(Rsref+Dsref+Href)
 * S2-BP, Vi : incidence nouveaux cas de contaminations en EHPAD et EMS, vu comme un quota avec un délai du nombre des nouvelles personnes qui se soignent sans passer par l'hôpital, Vi = Mi(j-dMV)*qMV
 * S2-BQ, Vs : cumul du nombre de cas de contamination en EHPAD et EMS, Vs = Vs(j-1)+Vi
 * S2-BR, VDi : incidence quotidienne des décès de pensionnaires EHPAD et EMS, vu comme un décalage avec un quota sur le nombre des nouveaux cas positifs, VDi = Vi(j-dVD)*qVD
@@ -185,6 +187,7 @@ Sheet2 - S2
 * S2-CC, FR : somme des sorties pour retour à domicile ou hospitalisation autre que covid, FR = F+R
 * S2-CD, DD : somme des décès avec les deux scénarios, DD = D+BDs
 * S2-CE, Bio : calcul du nombre de patients en hospitalisation dans la branche Boucle, vu comme la différence entre toutes les entrées et toutes les sorties, Bio = OBs-(BDs+BFs+BRs)
+* S2-CF, eHB : Vérification écarts toutes Hospitalisations avec Boucle, eHB = sref-(Bio+F)
 
 
 
