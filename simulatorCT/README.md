@@ -53,6 +53,7 @@ Une consonne minuscule = un calcul
 * d : délai, avant un changement d'état
 * j : le jour j
 * e : écart
+* c : correctif
 
 ---
 
@@ -65,6 +66,7 @@ Variable	Description	Ligne de calcul
 * dEI	Délai Exposé vers Infectieux jours	S1-05
 * dEP	Délai Exposé vers Positifs au test jours	S1-06
 * dIP	Délai Infectioeux vers Positif au test jours	S1-07
+* ceA Correctif écart asymptomatiques S1-08
 * dPH	Délai entrée hôpital	S2-03
 * qPH	% Positif vers hôpital	S2-04
 * qOB	% sOins vers réhospitalisation Boucle	S2-05
@@ -88,7 +90,7 @@ Variable	Description	Ligne de calcul
 * qVD	% Positifs vers Décès en EHPAD et EMS	S2-25
 * dVD	délai Positifs vers Décès en EHPAD et EMS	S2-26
 * dBR	délai réhospitalisation Boucle vers retour à domicile jours	S2-27
-* qBR	% sortie réhospitalisation Boucle vers retour à domicile scénario eXtrange	S2-28
+* qBR	% sortie réhospitalisation Boucle vers retour à domicile	S2-28
 
 ---
 
