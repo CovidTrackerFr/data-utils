@@ -22,8 +22,9 @@ def df_to_json(df):
         df_dep = df[df["departement_residence"]==dep]
         N = len(df_dep)
         dict_json[dep] = {
+            "dates": str(df_dep["semaine_injection_jour"].values),
             "taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[N-1],
-            "taux_cumu_1_inj_temps": df_dep["taux_cumu_1_inj"].fillna(0).to_list(),
+            "taux_cumu_1_inj_temps": df_dep["taux_cumu_1_inj"].fillna(0).to_list()*100,
             "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[N-1],
             "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[N-1],
             "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[N-1]}
