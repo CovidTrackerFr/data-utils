@@ -12,19 +12,22 @@ def prepare_data(df):
     df = df[df["type_vaccin"]=="Tout vaccin"]
     df = df[df["classe_age"]=="TOUT_AGE"]
     df["semaine_injection_jour"] = pd.to_datetime(df["semaine_injection"]+"-0", format="%Y-%W-%w")
-    df = df[df["semaine_injection_jour"] == df["semaine_injection_jour"].max()]
+    #df = df[df["semaine_injection_jour"] == df["semaine_injection_jour"].max()]
+    df = df.sort_values(by="semaine_injection_jour")
     return df
 
 def df_to_json(df):
     dict_json = {}
     for dep in df["departement_residence"]:
         df_dep = df[df["departement_residence"]==dep]
+        N = len(df_dep)
         dict_json[dep] = {
-            "taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[0], 
-            "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[0],
-            "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[0],
-            "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[0]}
-    dict_json["dates"] = [str(df["semaine_injection_jour"].values[0])]
+            "taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[N-1],
+            "taux_cumu_1_inj_temps": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[N-1],
+            "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[N-1],
+            "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[N-1],
+            "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[N-1]}
+    dict_json["dates"] = [str(df["semaine_injection_jour"].values)]
     return dict_json
 
 def export_to_json(data_json):
