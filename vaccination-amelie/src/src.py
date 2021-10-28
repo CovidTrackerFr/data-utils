@@ -19,7 +19,11 @@ def df_to_json(df):
     dict_json = {}
     for dep in df["departement_residence"]:
         df_dep = df[df["departement_residence"]==dep]
-        dict_json[dep] = {"taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[0], "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[0]}
+        dict_json[dep] = {
+            "taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[0], 
+            "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[0],
+            "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[0],
+            "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[0]}
     return dict_json
 
 def export_to_json(data_json):
