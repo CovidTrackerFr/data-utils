@@ -24,6 +24,7 @@ def df_to_json(df):
             "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[0],
             "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[0],
             "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[0]}
+    dict_json["dates"] = [str(df["semaine_injection_jour"].values[0])]
     return dict_json
 
 def export_to_json(data_json):
