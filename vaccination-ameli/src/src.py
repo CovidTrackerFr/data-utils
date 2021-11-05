@@ -12,7 +12,6 @@ def prepare_data(df):
     df = df[df["type_vaccin"]=="Tout vaccin"]
     df = df[df["classe_age"]=="TOUT_AGE"]
     df["semaine_injection_jour"] = pd.to_datetime(df["semaine_injection"]+"-0", format="%Y-%W-%w")
-    #df = df[df["semaine_injection_jour"] == df["semaine_injection_jour"].max()]
     df = df.sort_values(by="semaine_injection_jour")
     return df
 
@@ -23,16 +22,16 @@ def df_to_json(df):
         N = len(df_dep)
         dict_json[dep] = {
             "dates": df_dep["semaine_injection_jour"].dt.strftime('%Y-%m-%d').to_list(),
-            "taux_cumu_1_inj": df_dep["taux_cumu_1_inj"].fillna(0).to_list()[N-1],
+            "taux_cumu_1_inj": round(df_dep["taux_cumu_1_inj"].fillna(0).to_list()[N-1]*100, 1),
             "taux_cumu_1_inj_temps": list(100*df_dep["taux_cumu_1_inj"].fillna(0).values),
-            "taux_cumu_termine": df_dep["taux_cumu_termine"].fillna(0).to_list()[N-1],
+            "taux_cumu_termine": round(df_dep["taux_cumu_termine"].fillna(0).to_list()[N-1]*100, 1),
             "effectif_1_inj": df_dep["effectif_1_inj"].fillna(0).to_list()[N-1],
             "effectif_termine": df_dep["effectif_termine"].fillna(0).to_list()[N-1]}
     dict_json["dates"] = list(df["semaine_injection_jour"].dt.strftime('%Y-%m-%d'))
     return dict_json
 
 def export_to_json(data_json):
-    with open(CWD + '/data/output/' + 'donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement.json', 'w', encoding='utf-8') as f:
+    with open(CWD + '/vaccination-ameli/data/output/' + 'donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement.json', 'w', encoding='utf-8') as f:
         json.dump(data_json, f, ensure_ascii=False, indent=4)
 
 def main():
