@@ -1,5 +1,5 @@
 {
-  "last_updated": "2021/11/19 10:16:01",
+  "last_updated": "2021/11/19 10:33:23",
   "data_by_week": {
     "202122": {
       "week_start_date": "2021-05-31",
@@ -8,38 +8,667 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.93,
-            "FER_exposes": 48.19,
-            "FER_population": 42.5
+            "risque_relatif": 2.33,
+            "FER_exposes": 57.08,
+            "FER_population": 50.28
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 2.05,
-            "FER_exposes": 51.22,
-            "FER_population": 45.5
+            "risque_relatif": 2.44,
+            "FER_exposes": 59.02,
+            "FER_population": 52.27
           },
           "cas": {
-            "risque_relatif": 2.75,
-            "FER_exposes": 63.64,
-            "FER_population": 58.18
+            "risque_relatif": 3.36,
+            "FER_exposes": 70.24,
+            "FER_population": 64.22
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.88,
+            "FER_exposes": 74.23,
+            "FER_population": 70.12
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 3.33,
+            "FER_exposes": 69.97,
+            "FER_population": 65.49
+          },
+          "cas": {
+            "risque_relatif": 1.92,
+            "FER_exposes": 47.92,
+            "FER_population": 42.84
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.9,
+            "FER_exposes": 74.36,
+            "FER_population": 73.07
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 1.95,
+            "FER_exposes": 48.72,
+            "FER_population": 47.05
           }
         },
         "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.55,
-            "FER_exposes": 86.75,
-            "FER_population": 72.36
+            "risque_relatif": 7.42,
+            "FER_exposes": 86.52,
+            "FER_population": 72.03
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 8.09,
-            "FER_exposes": 87.64,
-            "FER_population": 73.91
+            "risque_relatif": 8.04,
+            "FER_exposes": 87.56,
+            "FER_population": 73.85
           },
           "cas": {
             "risque_relatif": 3.27,
             "FER_exposes": 69.42,
-            "FER_population": 47.57
+            "FER_population": 47.69
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 8.3,
+            "FER_exposes": 87.95,
+            "FER_population": 66.38
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 7.19,
+            "FER_exposes": 86.09,
+            "FER_population": 62.61
+          },
+          "cas": {
+            "risque_relatif": 3.69,
+            "FER_exposes": 72.9,
+            "FER_population": 42.12
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 0.68,
+            "FER_exposes": -47.06,
+            "FER_population": -46.83
+          },
+          "vaccination_rate": -1
+        }
+      }
+    },
+    "202123": {
+      "week_start_date": "2021-06-07",
+      "week_end_date": "2021-06-13",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.57,
+            "FER_exposes": 71.99,
+            "FER_population": 65.01
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 3.67,
+            "FER_exposes": 72.75,
+            "FER_population": 65.88
+          },
+          "cas": {
+            "risque_relatif": 3.62,
+            "FER_exposes": 72.38,
+            "FER_population": 65.46
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 0.48,
+            "FER_exposes": -108.33,
+            "FER_population": -107.29
+          },
+          "vaccination_rate": -1
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 10.61,
+            "FER_exposes": 90.57,
+            "FER_population": 71.16
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 5.42,
+            "FER_exposes": 81.55,
+            "FER_population": 53.18
+          },
+          "cas": {
+            "risque_relatif": 4.32,
+            "FER_exposes": 76.85,
+            "FER_population": 46.03
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 7.72,
+            "FER_exposes": 87.05,
+            "FER_population": 86.04
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 2.1,
+            "FER_exposes": 52.38,
+            "FER_population": 50.21
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 7.81,
+            "FER_exposes": 87.2,
+            "FER_population": 83.94
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 6.38,
+            "FER_exposes": 84.33,
+            "FER_population": 80.5
+          },
+          "cas": {
+            "risque_relatif": 2.12,
+            "FER_exposes": 52.83,
+            "FER_population": 46.21
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 11.98,
+            "FER_exposes": 91.65,
+            "FER_population": 79.53
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 16.72,
+            "FER_exposes": 94.02,
+            "FER_population": 84.77
+          },
+          "cas": {
+            "risque_relatif": 4.28,
+            "FER_exposes": 76.64,
+            "FER_population": 53.75
+          }
+        }
+      }
+    },
+    "202124": {
+      "week_start_date": "2021-06-14",
+      "week_end_date": "2021-06-20",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.14,
+            "FER_exposes": 68.15,
+            "FER_population": 59.26
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 4.1,
+            "FER_exposes": 75.61,
+            "FER_population": 67.81
+          },
+          "cas": {
+            "risque_relatif": 3.79,
+            "FER_exposes": 73.61,
+            "FER_population": 65.46
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 0.36,
+            "FER_exposes": -177.78,
+            "FER_population": -174.65
+          },
+          "vaccination_rate": -1
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 6.91,
+            "FER_exposes": 85.53,
+            "FER_population": 59.04
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 24.8,
+            "FER_exposes": 95.97,
+            "FER_population": 85.31
+          },
+          "cas": {
+            "risque_relatif": 5.08,
+            "FER_exposes": 80.31,
+            "FER_population": 49.89
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.11,
+            "FER_exposes": 67.85,
+            "FER_population": 65.31
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 1.69,
+            "FER_exposes": 40.83,
+            "FER_population": 38.11
+          },
+          "cas": {
+            "risque_relatif": 2.02,
+            "FER_exposes": 50.5,
+            "FER_population": 47.65
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 9.01,
+            "FER_exposes": 88.9,
+            "FER_population": 85.08
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 10.52,
+            "FER_exposes": 90.49,
+            "FER_population": 87.14
+          },
+          "cas": {
+            "risque_relatif": 2.44,
+            "FER_exposes": 59.02,
+            "FER_population": 50.62
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 10.61,
+            "FER_exposes": 90.57,
+            "FER_population": 74.61
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 11.35,
+            "FER_exposes": 91.19,
+            "FER_population": 75.99
+          },
+          "cas": {
+            "risque_relatif": 5.7,
+            "FER_exposes": 82.46,
+            "FER_population": 58.97
+          }
+        }
+      }
+    },
+    "202125": {
+      "week_start_date": "2021-06-21",
+      "week_end_date": "2021-06-27",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.09,
+            "FER_exposes": 67.64,
+            "FER_population": 57.02
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 4.07,
+            "FER_exposes": 75.43,
+            "FER_population": 66.08
+          },
+          "cas": {
+            "risque_relatif": 3.57,
+            "FER_exposes": 71.99,
+            "FER_population": 61.99
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 0.37,
+            "FER_exposes": -170.27,
+            "FER_population": -166.05
+          },
+          "vaccination_rate": -1
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 5.54,
+            "FER_exposes": 81.95,
+            "FER_population": 74.8
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 10.87,
+            "FER_exposes": 90.8,
+            "FER_population": 86.58
+          },
+          "cas": {
+            "risque_relatif": 2.24,
+            "FER_exposes": 55.36,
+            "FER_population": 44.76
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 8.47,
+            "FER_exposes": 88.19,
+            "FER_population": 66.61
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 9.29,
+            "FER_exposes": 89.24,
+            "FER_population": 68.89
+          },
+          "cas": {
+            "risque_relatif": 5.99,
+            "FER_exposes": 83.31,
+            "FER_population": 57.13
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 7.28,
+            "FER_exposes": 86.26,
+            "FER_population": 84.4
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 1.63,
+            "FER_exposes": 38.65,
+            "FER_population": 35.19
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 7.65,
+            "FER_exposes": 86.93,
+            "FER_population": 60.75
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 5.92,
+            "FER_exposes": 83.11,
+            "FER_population": 53.35
+          }
+        }
+      }
+    },
+    "202126": {
+      "week_start_date": "2021-06-28",
+      "week_end_date": "2021-07-04",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.31,
+            "FER_exposes": 69.79,
+            "FER_population": 57.58
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 3.23,
+            "FER_exposes": 69.04,
+            "FER_population": 56.71
+          },
+          "cas": {
+            "risque_relatif": 3.41,
+            "FER_exposes": 70.67,
+            "FER_population": 58.61
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 0.17,
+            "FER_exposes": -488.24,
+            "FER_population": -450.68
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 0.28,
+            "FER_exposes": -257.14,
+            "FER_population": -244.36
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.7,
+            "FER_exposes": 72.97,
+            "FER_population": 68.82
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 3.57,
+            "FER_exposes": 71.99,
+            "FER_population": 67.76
+          },
+          "cas": {
+            "risque_relatif": 1.4,
+            "FER_exposes": 28.57,
+            "FER_population": 24.65
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 12.63,
+            "FER_exposes": 92.08,
+            "FER_population": 73.4
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 7.77,
+            "FER_exposes": 87.13,
+            "FER_population": 61.63
+          },
+          "cas": {
+            "risque_relatif": 6.36,
+            "FER_exposes": 84.28,
+            "FER_population": 55.99
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 6.67,
+            "FER_exposes": 85.01,
+            "FER_population": 76.78
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 16.44,
+            "FER_exposes": 93.92,
+            "FER_population": 90.01
+          },
+          "cas": {
+            "risque_relatif": 2.43,
+            "FER_exposes": 58.85,
+            "FER_population": 45.49
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 5.3,
+            "FER_exposes": 81.13,
+            "FER_population": 48.92
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 3.49,
+            "FER_exposes": 71.35,
+            "FER_population": 35.67
+          },
+          "cas": {
+            "risque_relatif": 3.7,
+            "FER_exposes": 72.97,
+            "FER_population": 37.58
+          }
+        }
+      }
+    },
+    "202127": {
+      "week_start_date": "2021-07-05",
+      "week_end_date": "2021-07-11",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.95,
+            "FER_exposes": 74.68,
+            "FER_population": 61.39
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 5.76,
+            "FER_exposes": 82.64,
+            "FER_population": 71.95
+          },
+          "cas": {
+            "risque_relatif": 3.6,
+            "FER_exposes": 72.22,
+            "FER_population": 58.36
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 11.94,
+            "FER_exposes": 91.62,
+            "FER_population": 84.69
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 11.73,
+            "FER_exposes": 91.47,
+            "FER_population": 84.43
+          },
+          "cas": {
+            "risque_relatif": 2.81,
+            "FER_exposes": 64.41,
+            "FER_population": 47.79
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 6.48,
+            "FER_exposes": 84.57,
+            "FER_population": 80.54
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 1.62,
+            "FER_exposes": 38.27,
+            "FER_population": 31.89
+          },
+          "cas": {
+            "risque_relatif": 1.6,
+            "FER_exposes": 37.5,
+            "FER_population": 31.17
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 4.57,
+            "FER_exposes": 78.12,
+            "FER_population": 43.4
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 3.79,
+            "FER_exposes": 73.61,
+            "FER_population": 37.44
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 10.35,
+            "FER_exposes": 90.34,
+            "FER_population": 66.89
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 15.73,
+            "FER_exposes": 93.64,
+            "FER_population": 76.08
+          },
+          "cas": {
+            "risque_relatif": 5.09,
+            "FER_exposes": 80.35,
+            "FER_population": 46.89
           }
         },
         "[0,19]": {
@@ -56,638 +685,9 @@
           "cas": {
             "risque_relatif": 0.34,
             "FER_exposes": -194.12,
-            "FER_population": -193.12
+            "FER_population": -179.3
           },
           "vaccination_rate": -1
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.9,
-            "FER_exposes": 74.36,
-            "FER_population": 70.23
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 3.87,
-            "FER_exposes": 74.16,
-            "FER_population": 70.01
-          },
-          "cas": {
-            "risque_relatif": 1.92,
-            "FER_exposes": 47.92,
-            "FER_population": 42.8
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 8.45,
-            "FER_exposes": 88.17,
-            "FER_population": 66.8
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 7.21,
-            "FER_exposes": 86.13,
-            "FER_population": 62.64
-          },
-          "cas": {
-            "risque_relatif": 3.76,
-            "FER_exposes": 73.4,
-            "FER_population": 42.68
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.92,
-            "FER_exposes": 74.49,
-            "FER_population": 73.19
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 1.97,
-            "FER_exposes": 49.24,
-            "FER_population": 47.57
-          }
-        }
-      }
-    },
-    "202123": {
-      "week_start_date": "2021-06-07",
-      "week_end_date": "2021-06-13",
-      "vaccination_rate": -1,
-      "data": {
-        "all": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.85,
-            "FER_exposes": 64.91,
-            "FER_population": 58.56
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 2.93,
-            "FER_exposes": 65.87,
-            "FER_population": 59.6
-          },
-          "cas": {
-            "risque_relatif": 2.91,
-            "FER_exposes": 65.64,
-            "FER_population": 59.34
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 11.74,
-            "FER_exposes": 91.48,
-            "FER_population": 79.12
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 16.82,
-            "FER_exposes": 94.05,
-            "FER_population": 84.8
-          },
-          "cas": {
-            "risque_relatif": 4.28,
-            "FER_exposes": 76.64,
-            "FER_population": 53.62
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 0.25,
-            "FER_exposes": -300.0,
-            "FER_population": -297.09
-          },
-          "vaccination_rate": -1
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.76,
-            "FER_exposes": 87.11,
-            "FER_population": 86.1
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 2.11,
-            "FER_exposes": 52.61,
-            "FER_population": 50.43
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.86,
-            "FER_exposes": 87.28,
-            "FER_population": 84.01
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 6.26,
-            "FER_exposes": 84.03,
-            "FER_population": 80.12
-          },
-          "cas": {
-            "risque_relatif": 2.12,
-            "FER_exposes": 52.83,
-            "FER_population": 46.18
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 10.63,
-            "FER_exposes": 90.59,
-            "FER_population": 71.18
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 5.44,
-            "FER_exposes": 81.62,
-            "FER_population": 53.23
-          },
-          "cas": {
-            "risque_relatif": 4.35,
-            "FER_exposes": 77.01,
-            "FER_population": 46.22
-          }
-        }
-      }
-    },
-    "202124": {
-      "week_start_date": "2021-06-14",
-      "week_end_date": "2021-06-20",
-      "vaccination_rate": -1,
-      "data": {
-        "all": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.5,
-            "FER_exposes": 60.0,
-            "FER_population": 52.17
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 3.77,
-            "FER_exposes": 73.47,
-            "FER_population": 66.83
-          },
-          "cas": {
-            "risque_relatif": 3.03,
-            "FER_exposes": 67.0,
-            "FER_population": 59.62
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 10.73,
-            "FER_exposes": 90.68,
-            "FER_population": 74.79
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 14.45,
-            "FER_exposes": 93.08,
-            "FER_population": 80.39
-          },
-          "cas": {
-            "risque_relatif": 5.75,
-            "FER_exposes": 82.61,
-            "FER_population": 59.16
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.22,
-            "FER_exposes": 86.15,
-            "FER_population": 60.23
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 24.86,
-            "FER_exposes": 95.98,
-            "FER_population": 85.32
-          },
-          "cas": {
-            "risque_relatif": 5.12,
-            "FER_exposes": 80.47,
-            "FER_population": 50.06
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.45,
-            "FER_exposes": 59.18,
-            "FER_population": 56.39
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 1.7,
-            "FER_exposes": 41.18,
-            "FER_population": 38.43
-          },
-          "cas": {
-            "risque_relatif": 2.04,
-            "FER_exposes": 50.98,
-            "FER_population": 48.12
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 9.06,
-            "FER_exposes": 88.96,
-            "FER_population": 85.13
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 10.58,
-            "FER_exposes": 90.55,
-            "FER_population": 87.2
-          },
-          "cas": {
-            "risque_relatif": 2.47,
-            "FER_exposes": 59.51,
-            "FER_population": 51.08
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 0.19,
-            "FER_exposes": -426.32,
-            "FER_population": -418.94
-          },
-          "vaccination_rate": -1
-        }
-      }
-    },
-    "202125": {
-      "week_start_date": "2021-06-21",
-      "week_end_date": "2021-06-27",
-      "vaccination_rate": -1,
-      "data": {
-        "all": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.42,
-            "FER_exposes": 58.68,
-            "FER_population": 49.45
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 3.41,
-            "FER_exposes": 70.67,
-            "FER_population": 62.43
-          },
-          "cas": {
-            "risque_relatif": 2.78,
-            "FER_exposes": 64.03,
-            "FER_population": 55.09
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.23,
-            "FER_exposes": 86.17,
-            "FER_population": 84.3
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 1.61,
-            "FER_exposes": 37.89,
-            "FER_population": 34.44
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.57,
-            "FER_exposes": 82.05,
-            "FER_population": 74.89
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 10.93,
-            "FER_exposes": 90.85,
-            "FER_population": 86.62
-          },
-          "cas": {
-            "risque_relatif": 2.25,
-            "FER_exposes": 55.56,
-            "FER_population": 44.9
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.67,
-            "FER_exposes": 86.96,
-            "FER_population": 60.77
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 5.97,
-            "FER_exposes": 83.25,
-            "FER_population": 53.57
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 0.19,
-            "FER_exposes": -426.32,
-            "FER_population": -415.91
-          },
-          "vaccination_rate": -1
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 8.51,
-            "FER_exposes": 88.25,
-            "FER_population": 66.65
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 10.11,
-            "FER_exposes": 90.11,
-            "FER_population": 70.8
-          },
-          "cas": {
-            "risque_relatif": 5.98,
-            "FER_exposes": 83.28,
-            "FER_population": 57.0
-          }
-        }
-      }
-    },
-    "202126": {
-      "week_start_date": "2021-06-28",
-      "week_end_date": "2021-07-04",
-      "vaccination_rate": -1,
-      "data": {
-        "all": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.56,
-            "FER_exposes": 60.94,
-            "FER_population": 50.28
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 2.47,
-            "FER_exposes": 59.51,
-            "FER_population": 48.76
-          },
-          "cas": {
-            "risque_relatif": 2.64,
-            "FER_exposes": 62.12,
-            "FER_population": 51.51
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.71,
-            "FER_exposes": 73.05,
-            "FER_population": 68.9
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 3.58,
-            "FER_exposes": 72.07,
-            "FER_population": 67.83
-          },
-          "cas": {
-            "risque_relatif": 1.4,
-            "FER_exposes": 28.57,
-            "FER_population": 24.64
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.68,
-            "FER_exposes": 92.11,
-            "FER_population": 73.42
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 7.53,
-            "FER_exposes": 86.72,
-            "FER_population": 60.7
-          },
-          "cas": {
-            "risque_relatif": 6.43,
-            "FER_exposes": 84.45,
-            "FER_population": 56.23
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.31,
-            "FER_exposes": 81.17,
-            "FER_population": 48.94
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 3.5,
-            "FER_exposes": 71.43,
-            "FER_population": 35.72
-          },
-          "cas": {
-            "risque_relatif": 3.75,
-            "FER_exposes": 73.33,
-            "FER_population": 37.93
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.09,
-            "FER_exposes": -1011.11,
-            "FER_population": -933.33
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 0.14,
-            "FER_exposes": -614.29,
-            "FER_population": -583.77
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 6.7,
-            "FER_exposes": 85.07,
-            "FER_population": 76.84
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 16.51,
-            "FER_exposes": 93.94,
-            "FER_population": 90.03
-          },
-          "cas": {
-            "risque_relatif": 2.42,
-            "FER_exposes": 58.68,
-            "FER_population": 45.28
-          }
-        }
-      }
-    },
-    "202127": {
-      "week_start_date": "2021-07-05",
-      "week_end_date": "2021-07-11",
-      "vaccination_rate": -1,
-      "data": {
-        "all": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.01,
-            "FER_exposes": 66.78,
-            "FER_population": 54.84
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 4.37,
-            "FER_exposes": 77.12,
-            "FER_population": 67.06
-          },
-          "cas": {
-            "risque_relatif": 2.76,
-            "FER_exposes": 63.77,
-            "FER_population": 51.52
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 0.16,
-            "FER_exposes": -525.0,
-            "FER_population": -485.18
-          },
-          "vaccination_rate": -1
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.89,
-            "FER_exposes": 79.55,
-            "FER_population": 45.46
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 3.8,
-            "FER_exposes": 73.68,
-            "FER_population": 37.48
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 9.79,
-            "FER_exposes": 89.79,
-            "FER_population": 65.43
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 15.39,
-            "FER_exposes": 93.5,
-            "FER_population": 75.6
-          },
-          "cas": {
-            "risque_relatif": 5.11,
-            "FER_exposes": 80.43,
-            "FER_population": 46.94
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 11.98,
-            "FER_exposes": 91.65,
-            "FER_population": 84.72
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 11.76,
-            "FER_exposes": 91.5,
-            "FER_population": 84.46
-          },
-          "cas": {
-            "risque_relatif": 2.82,
-            "FER_exposes": 64.54,
-            "FER_population": 47.87
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 6.5,
-            "FER_exposes": 84.62,
-            "FER_population": 80.59
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 1.62,
-            "FER_exposes": 38.27,
-            "FER_population": 31.89
-          },
-          "cas": {
-            "risque_relatif": 1.59,
-            "FER_exposes": 37.11,
-            "FER_population": 30.83
-          }
         }
       }
     },
@@ -698,63 +698,27 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.8,
-            "FER_exposes": 64.29,
-            "FER_population": 50.24
+            "risque_relatif": 3.76,
+            "FER_exposes": 73.4,
+            "FER_population": 57.57
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 3.68,
-            "FER_exposes": 72.83,
-            "FER_population": 60.07
+            "risque_relatif": 4.87,
+            "FER_exposes": 79.47,
+            "FER_population": 65.55
           },
           "cas": {
-            "risque_relatif": 3.29,
-            "FER_exposes": 69.6,
-            "FER_population": 56.25
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 9.46,
-            "FER_exposes": 89.43,
-            "FER_population": 78.74
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 7.06,
-            "FER_exposes": 85.84,
-            "FER_population": 72.63
-          },
-          "cas": {
-            "risque_relatif": 3.55,
-            "FER_exposes": 71.83,
-            "FER_population": 52.74
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 8.41,
-            "FER_exposes": 88.11,
-            "FER_population": 59.38
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 27.69,
-            "FER_exposes": 96.39,
-            "FER_population": 84.03
-          },
-          "cas": {
-            "risque_relatif": 4.54,
-            "FER_exposes": 77.97,
-            "FER_population": 41.11
+            "risque_relatif": 4.37,
+            "FER_exposes": 77.12,
+            "FER_population": 62.37
           }
         },
         "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.45,
-            "FER_exposes": 81.65,
-            "FER_population": 75.25
+            "risque_relatif": 5.93,
+            "FER_exposes": 83.14,
+            "FER_population": 77.12
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -763,27 +727,63 @@
             "FER_population": 50.11
           },
           "cas": {
-            "risque_relatif": 2.37,
-            "FER_exposes": 57.81,
-            "FER_population": 48.35
+            "risque_relatif": 2.38,
+            "FER_exposes": 57.98,
+            "FER_population": 48.53
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 9.44,
+            "FER_exposes": 89.41,
+            "FER_population": 78.73
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 7.05,
+            "FER_exposes": 85.82,
+            "FER_population": 72.62
+          },
+          "cas": {
+            "risque_relatif": 3.55,
+            "FER_exposes": 71.83,
+            "FER_population": 52.8
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 8.59,
+            "FER_exposes": 88.36,
+            "FER_population": 60.03
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 27.58,
+            "FER_exposes": 96.37,
+            "FER_population": 84.01
+          },
+          "cas": {
+            "risque_relatif": 4.55,
+            "FER_exposes": 78.02,
+            "FER_population": 41.26
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.84,
-            "FER_exposes": 82.88,
-            "FER_population": 50.01
+            "risque_relatif": 5.83,
+            "FER_exposes": 82.85,
+            "FER_population": 50.0
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 2.4,
-            "FER_exposes": 58.33,
-            "FER_population": 22.43
+            "risque_relatif": 2.39,
+            "FER_exposes": 58.16,
+            "FER_population": 22.37
           },
           "cas": {
-            "risque_relatif": 2.92,
-            "FER_exposes": 65.75,
-            "FER_population": 28.39
+            "risque_relatif": 2.91,
+            "FER_exposes": 65.64,
+            "FER_population": 28.35
           }
         },
         "[0,19]": {
@@ -798,9 +798,9 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 0.25,
-            "FER_exposes": -300.0,
-            "FER_population": -275.16
+            "risque_relatif": 0.54,
+            "FER_exposes": -85.19,
+            "FER_population": -78.11
           },
           "vaccination_rate": -1
         }
@@ -813,56 +813,74 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.82,
-            "FER_exposes": 73.82,
-            "FER_population": 59.43
+            "risque_relatif": 5.15,
+            "FER_exposes": 80.58,
+            "FER_population": 64.87
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 7.18,
-            "FER_exposes": 86.07,
-            "FER_population": 76.24
+            "risque_relatif": 9.42,
+            "FER_exposes": 89.38,
+            "FER_population": 78.93
           },
           "cas": {
-            "risque_relatif": 4.09,
-            "FER_exposes": 75.55,
-            "FER_population": 61.61
+            "risque_relatif": 5.53,
+            "FER_exposes": 81.92,
+            "FER_population": 66.85
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 10.89,
-            "FER_exposes": 90.82,
-            "FER_population": 79.0
+            "risque_relatif": 10.87,
+            "FER_exposes": 90.8,
+            "FER_population": 78.98
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 21.55,
-            "FER_exposes": 95.36,
-            "FER_population": 88.66
+            "risque_relatif": 19.35,
+            "FER_exposes": 94.83,
+            "FER_population": 87.48
           },
           "cas": {
-            "risque_relatif": 4.69,
-            "FER_exposes": 78.68,
-            "FER_population": 58.38
+            "risque_relatif": 4.7,
+            "FER_exposes": 78.72,
+            "FER_population": 58.49
           }
         },
-        "[20,39]": {
+        "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 10.84,
-            "FER_exposes": 90.77,
-            "FER_population": 85.64
+            "risque_relatif": 6.3,
+            "FER_exposes": 84.13,
+            "FER_population": 51.46
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 7.31,
-            "FER_exposes": 86.32,
-            "FER_population": 79.27
+            "risque_relatif": 10.29,
+            "FER_exposes": 90.28,
+            "FER_population": 65.0
           },
           "cas": {
-            "risque_relatif": 3.49,
-            "FER_exposes": 71.35,
-            "FER_population": 60.15
+            "risque_relatif": 2.62,
+            "FER_exposes": 61.83,
+            "FER_population": 24.49
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 12.54,
+            "FER_exposes": 92.03,
+            "FER_population": 67.67
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 27.09,
+            "FER_exposes": 96.31,
+            "FER_population": 82.55
+          },
+          "cas": {
+            "risque_relatif": 4.83,
+            "FER_exposes": 79.3,
+            "FER_population": 41.01
           }
         },
         "[0,19]": {
@@ -877,46 +895,28 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 0.48,
-            "FER_exposes": -108.33,
-            "FER_population": -100.74
+            "risque_relatif": 1.07,
+            "FER_exposes": 6.54,
+            "FER_population": 6.08
           },
           "vaccination_rate": -1
         },
-        "[80;+]": {
+        "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 6.31,
-            "FER_exposes": 84.15,
-            "FER_population": 51.47
+            "risque_relatif": 10.82,
+            "FER_exposes": 90.76,
+            "FER_population": 85.63
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 10.31,
-            "FER_exposes": 90.3,
-            "FER_population": 65.02
+            "risque_relatif": 7.3,
+            "FER_exposes": 86.3,
+            "FER_population": 79.26
           },
           "cas": {
-            "risque_relatif": 2.63,
-            "FER_exposes": 61.98,
-            "FER_population": 24.54
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.59,
-            "FER_exposes": 92.06,
-            "FER_population": 67.69
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 27.19,
-            "FER_exposes": 96.32,
-            "FER_population": 82.56
-          },
-          "cas": {
-            "risque_relatif": 4.85,
-            "FER_exposes": 79.38,
-            "FER_population": 41.02
+            "risque_relatif": 3.5,
+            "FER_exposes": 71.43,
+            "FER_population": 60.27
           }
         }
       }
@@ -928,63 +928,27 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.17,
-            "FER_exposes": 76.02,
-            "FER_population": 60.07
+            "risque_relatif": 5.83,
+            "FER_exposes": 82.85,
+            "FER_population": 65.55
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.07,
-            "FER_exposes": 83.53,
-            "FER_population": 70.66
+            "risque_relatif": 8.44,
+            "FER_exposes": 88.15,
+            "FER_population": 74.56
           },
           "cas": {
-            "risque_relatif": 4.56,
-            "FER_exposes": 78.07,
-            "FER_population": 62.83
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 15.17,
-            "FER_exposes": 93.41,
-            "FER_population": 82.14
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 25.39,
-            "FER_exposes": 96.06,
-            "FER_population": 88.78
-          },
-          "cas": {
-            "risque_relatif": 5.99,
-            "FER_exposes": 83.31,
-            "FER_population": 61.82
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.81,
-            "FER_exposes": 79.21,
-            "FER_population": 42.25
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 4.81,
-            "FER_exposes": 79.21,
-            "FER_population": 42.25
-          },
-          "cas": {
-            "risque_relatif": 2.54,
-            "FER_exposes": 60.63,
-            "FER_population": 22.81
+            "risque_relatif": 6.37,
+            "FER_exposes": 84.3,
+            "FER_population": 67.91
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.58,
-            "FER_exposes": -72.41,
-            "FER_population": -65.83
+            "risque_relatif": 1.34,
+            "FER_exposes": 25.37,
+            "FER_population": 23.06
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -993,45 +957,81 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 0.93,
-            "FER_exposes": -7.53,
-            "FER_population": -7.09
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 27.3,
-            "FER_exposes": 96.34,
-            "FER_population": 93.14
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 22.79,
-            "FER_exposes": 95.61,
-            "FER_population": 91.84
-          },
-          "cas": {
-            "risque_relatif": 4.81,
-            "FER_exposes": 79.21,
-            "FER_population": 66.29
+            "risque_relatif": 2.15,
+            "FER_exposes": 53.49,
+            "FER_population": 50.35
           }
         },
         "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.08,
-            "FER_exposes": 92.9,
-            "FER_population": 68.22
+            "risque_relatif": 14.03,
+            "FER_exposes": 92.87,
+            "FER_population": 68.2
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 17.83,
-            "FER_exposes": 94.39,
-            "FER_population": 73.41
+            "risque_relatif": 17.76,
+            "FER_exposes": 94.37,
+            "FER_population": 73.4
           },
           "cas": {
-            "risque_relatif": 5.43,
-            "FER_exposes": 81.58,
-            "FER_population": 42.09
+            "risque_relatif": 5.41,
+            "FER_exposes": 81.52,
+            "FER_population": 42.07
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 27.27,
+            "FER_exposes": 96.33,
+            "FER_population": 93.13
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 22.77,
+            "FER_exposes": 95.61,
+            "FER_population": 91.84
+          },
+          "cas": {
+            "risque_relatif": 4.84,
+            "FER_exposes": 79.34,
+            "FER_population": 66.48
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 4.8,
+            "FER_exposes": 79.17,
+            "FER_population": 42.22
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 4.8,
+            "FER_exposes": 79.17,
+            "FER_population": 42.22
+          },
+          "cas": {
+            "risque_relatif": 2.54,
+            "FER_exposes": 60.63,
+            "FER_population": 22.83
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 15.64,
+            "FER_exposes": 93.61,
+            "FER_population": 82.64
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 25.34,
+            "FER_exposes": 96.05,
+            "FER_population": 88.77
+          },
+          "cas": {
+            "risque_relatif": 6.02,
+            "FER_exposes": 83.39,
+            "FER_population": 62.0
           }
         }
       }
@@ -1043,81 +1043,81 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.1,
-            "FER_exposes": 75.61,
-            "FER_population": 57.04
+            "risque_relatif": 5.97,
+            "FER_exposes": 83.25,
+            "FER_population": 62.87
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 7.91,
-            "FER_exposes": 87.36,
-            "FER_population": 74.75
+            "risque_relatif": 11.49,
+            "FER_exposes": 91.3,
+            "FER_population": 78.14
           },
           "cas": {
-            "risque_relatif": 4.5,
-            "FER_exposes": 77.78,
-            "FER_population": 60.0
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 13.19,
-            "FER_exposes": 92.42,
-            "FER_population": 64.12
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 22.45,
-            "FER_exposes": 95.55,
-            "FER_population": 75.88
-          },
-          "cas": {
-            "risque_relatif": 5.59,
-            "FER_exposes": 82.11,
-            "FER_population": 40.24
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.39,
-            "FER_exposes": 91.93,
-            "FER_population": 82.88
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 136.55,
-            "FER_exposes": 99.27,
-            "FER_population": 98.3
-          },
-          "cas": {
-            "risque_relatif": 5.71,
-            "FER_exposes": 82.49,
-            "FER_population": 66.7
+            "risque_relatif": 6.55,
+            "FER_exposes": 84.73,
+            "FER_population": 65.41
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 22.46,
-            "FER_exposes": 95.55,
-            "FER_population": 85.28
+            "risque_relatif": 22.14,
+            "FER_exposes": 95.48,
+            "FER_population": 85.1
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 43.45,
-            "FER_exposes": 97.7,
-            "FER_population": 91.97
+            "risque_relatif": 43.37,
+            "FER_exposes": 97.69,
+            "FER_population": 91.96
           },
           "cas": {
-            "risque_relatif": 6.86,
-            "FER_exposes": 85.42,
-            "FER_population": 61.26
+            "risque_relatif": 6.87,
+            "FER_exposes": 85.44,
+            "FER_population": 61.33
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 12.83,
+            "FER_exposes": 92.21,
+            "FER_population": 83.43
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 139.15,
+            "FER_exposes": 99.28,
+            "FER_population": 98.33
+          },
+          "cas": {
+            "risque_relatif": 5.74,
+            "FER_exposes": 82.58,
+            "FER_population": 66.85
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 4.98,
+            "FER_exposes": 79.92,
+            "FER_population": 42.24
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 5.47,
+            "FER_exposes": 81.72,
+            "FER_population": 45.09
+          },
+          "cas": {
+            "risque_relatif": 2.24,
+            "FER_exposes": 55.36,
+            "FER_population": 18.53
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.05,
-            "FER_exposes": 4.76,
-            "FER_population": 4.38
+            "risque_relatif": 2.56,
+            "FER_exposes": 60.94,
+            "FER_population": 56.1
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1126,27 +1126,27 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 1.55,
-            "FER_exposes": 35.48,
-            "FER_population": 33.53
+            "risque_relatif": 3.77,
+            "FER_exposes": 73.47,
+            "FER_population": 69.41
           }
         },
-        "[80;+]": {
+        "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.99,
-            "FER_exposes": 79.96,
-            "FER_population": 42.26
+            "risque_relatif": 13.19,
+            "FER_exposes": 92.42,
+            "FER_population": 64.2
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 5.48,
-            "FER_exposes": 81.75,
-            "FER_population": 45.1
+            "risque_relatif": 22.28,
+            "FER_exposes": 95.51,
+            "FER_population": 75.79
           },
           "cas": {
-            "risque_relatif": 2.23,
-            "FER_exposes": 55.16,
-            "FER_population": 18.41
+            "risque_relatif": 5.57,
+            "FER_exposes": 82.05,
+            "FER_population": 40.2
           }
         }
       }
@@ -1158,45 +1158,63 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.48,
-            "FER_exposes": 77.68,
-            "FER_population": 57.66
+            "risque_relatif": 6.81,
+            "FER_exposes": 85.32,
+            "FER_population": 63.38
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.93,
-            "FER_exposes": 85.57,
-            "FER_population": 69.89
+            "risque_relatif": 10.58,
+            "FER_exposes": 90.55,
+            "FER_population": 74.07
           },
           "cas": {
-            "risque_relatif": 4.57,
-            "FER_exposes": 78.12,
-            "FER_population": 58.28
+            "risque_relatif": 6.94,
+            "FER_exposes": 85.59,
+            "FER_population": 63.9
           }
         },
-        "[20,39]": {
+        "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.58,
-            "FER_exposes": 92.05,
-            "FER_population": 80.54
+            "risque_relatif": 14.41,
+            "FER_exposes": 93.06,
+            "FER_population": 63.95
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 46.27,
-            "FER_exposes": 97.84,
-            "FER_population": 94.18
+            "risque_relatif": 18.22,
+            "FER_exposes": 94.51,
+            "FER_population": 69.48
           },
           "cas": {
-            "risque_relatif": 6.4,
-            "FER_exposes": 84.38,
-            "FER_population": 65.87
+            "risque_relatif": 6.19,
+            "FER_exposes": 83.84,
+            "FER_population": 40.68
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 5.09,
+            "FER_exposes": 80.35,
+            "FER_population": 41.8
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 5.86,
+            "FER_exposes": 82.94,
+            "FER_population": 46.08
+          },
+          "cas": {
+            "risque_relatif": 2.36,
+            "FER_exposes": 57.63,
+            "FER_population": 19.31
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.98,
-            "FER_exposes": 49.49,
-            "FER_population": 46.54
+            "risque_relatif": 6.83,
+            "FER_exposes": 85.36,
+            "FER_population": 81.48
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1205,63 +1223,45 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 1.92,
-            "FER_exposes": 47.92,
-            "FER_population": 44.98
+            "risque_relatif": 4.97,
+            "FER_exposes": 79.88,
+            "FER_population": 74.97
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 12.6,
+            "FER_exposes": 92.06,
+            "FER_population": 80.58
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 46.24,
+            "FER_exposes": 97.84,
+            "FER_population": 94.18
+          },
+          "cas": {
+            "risque_relatif": 6.42,
+            "FER_exposes": 84.42,
+            "FER_population": 65.98
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 24.45,
-            "FER_exposes": 95.91,
-            "FER_population": 84.23
+            "risque_relatif": 24.73,
+            "FER_exposes": 95.96,
+            "FER_population": 84.41
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 38.18,
-            "FER_exposes": 97.38,
-            "FER_population": 89.44
+            "risque_relatif": 39.99,
+            "FER_exposes": 97.5,
+            "FER_population": 89.89
           },
           "cas": {
-            "risque_relatif": 7.6,
-            "FER_exposes": 86.84,
-            "FER_population": 60.05
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.12,
-            "FER_exposes": 80.47,
-            "FER_population": 41.93
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 5.88,
-            "FER_exposes": 82.99,
-            "FER_population": 46.11
-          },
-          "cas": {
-            "risque_relatif": 2.37,
-            "FER_exposes": 57.81,
-            "FER_population": 19.35
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.44,
-            "FER_exposes": 93.07,
-            "FER_population": 63.93
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 18.28,
-            "FER_exposes": 94.53,
-            "FER_population": 69.5
-          },
-          "cas": {
-            "risque_relatif": 6.19,
-            "FER_exposes": 83.84,
-            "FER_population": 40.63
+            "risque_relatif": 7.61,
+            "FER_exposes": 86.86,
+            "FER_population": 60.13
           }
         }
       }
@@ -1273,27 +1273,99 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.57,
-            "FER_exposes": 78.12,
-            "FER_population": 56.45
+            "risque_relatif": 7.2,
+            "FER_exposes": 86.11,
+            "FER_population": 62.21
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.82,
-            "FER_exposes": 85.34,
-            "FER_population": 67.87
+            "risque_relatif": 10.93,
+            "FER_exposes": 90.85,
+            "FER_population": 72.51
           },
           "cas": {
-            "risque_relatif": 4.38,
-            "FER_exposes": 77.17,
-            "FER_population": 55.08
+            "risque_relatif": 6.91,
+            "FER_exposes": 85.53,
+            "FER_population": 61.08
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 23.63,
+            "FER_exposes": 95.77,
+            "FER_population": 81.67
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 31.84,
+            "FER_exposes": 96.86,
+            "FER_population": 85.86
+          },
+          "cas": {
+            "risque_relatif": 7.46,
+            "FER_exposes": 86.6,
+            "FER_population": 55.98
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 14.42,
+            "FER_exposes": 93.07,
+            "FER_population": 61.87
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 20.47,
+            "FER_exposes": 95.11,
+            "FER_population": 70.18
+          },
+          "cas": {
+            "risque_relatif": 6.19,
+            "FER_exposes": 83.84,
+            "FER_population": 38.54
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 14.41,
+            "FER_exposes": 93.06,
+            "FER_population": 80.35
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 24.57,
+            "FER_exposes": 95.93,
+            "FER_population": 87.79
+          },
+          "cas": {
+            "risque_relatif": 6.63,
+            "FER_exposes": 84.92,
+            "FER_population": 63.19
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 5.62,
+            "FER_exposes": 82.21,
+            "FER_population": 43.84
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 5.99,
+            "FER_exposes": 83.31,
+            "FER_population": 45.74
+          },
+          "cas": {
+            "risque_relatif": 2.37,
+            "FER_exposes": 57.81,
+            "FER_population": 18.79
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.13,
-            "FER_exposes": 11.5,
-            "FER_population": 10.08
+            "risque_relatif": 3.06,
+            "FER_exposes": 67.32,
+            "FER_population": 59.03
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1302,81 +1374,9 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 2.11,
-            "FER_exposes": 52.61,
-            "FER_population": 48.93
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.38,
-            "FER_exposes": 93.05,
-            "FER_population": 80.31
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 19.49,
-            "FER_exposes": 94.87,
-            "FER_population": 84.93
-          },
-          "cas": {
-            "risque_relatif": 6.61,
-            "FER_exposes": 84.87,
-            "FER_population": 63.09
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 23.95,
-            "FER_exposes": 95.82,
-            "FER_population": 81.85
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 31.9,
-            "FER_exposes": 96.87,
-            "FER_population": 85.87
-          },
-          "cas": {
-            "risque_relatif": 7.45,
-            "FER_exposes": 86.58,
-            "FER_population": 55.91
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.64,
-            "FER_exposes": 82.27,
-            "FER_population": 43.87
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 6.01,
-            "FER_exposes": 83.36,
-            "FER_population": 45.77
-          },
-          "cas": {
-            "risque_relatif": 2.38,
-            "FER_exposes": 57.98,
-            "FER_population": 18.84
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.43,
-            "FER_exposes": 93.07,
-            "FER_population": 61.81
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 20.47,
-            "FER_exposes": 95.11,
-            "FER_population": 70.12
-          },
-          "cas": {
-            "risque_relatif": 6.19,
-            "FER_exposes": 83.84,
-            "FER_population": 38.49
+            "risque_relatif": 5.69,
+            "FER_exposes": 82.43,
+            "FER_population": 76.64
           }
         }
       }
@@ -1388,110 +1388,110 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.42,
-            "FER_exposes": 77.38,
-            "FER_population": 53.73
+            "risque_relatif": 7.23,
+            "FER_exposes": 86.17,
+            "FER_population": 59.91
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.45,
-            "FER_exposes": 84.5,
-            "FER_population": 64.9
+            "risque_relatif": 10.51,
+            "FER_exposes": 90.49,
+            "FER_population": 69.53
           },
           "cas": {
-            "risque_relatif": 4.16,
-            "FER_exposes": 75.96,
-            "FER_population": 51.74
+            "risque_relatif": 6.79,
+            "FER_exposes": 85.27,
+            "FER_population": 58.13
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.94,
-            "FER_exposes": -6.38,
-            "FER_population": -5.3
+            "risque_relatif": 2.65,
+            "FER_exposes": 62.26,
+            "FER_population": 51.69
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 0.77,
-            "FER_exposes": -29.87,
-            "FER_population": -23.9
+            "risque_relatif": 2.17,
+            "FER_exposes": 53.92,
+            "FER_population": 43.14
           },
           "cas": {
-            "risque_relatif": 2.44,
-            "FER_exposes": 59.02,
-            "FER_population": 54.7
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 13.8,
-            "FER_exposes": 92.75,
-            "FER_population": 58.95
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 19.39,
-            "FER_exposes": 94.84,
-            "FER_population": 67.35
-          },
-          "cas": {
-            "risque_relatif": 5.94,
-            "FER_exposes": 83.16,
-            "FER_population": 35.64
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 17.0,
-            "FER_exposes": 94.12,
-            "FER_population": 80.77
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 22.48,
-            "FER_exposes": 95.55,
-            "FER_population": 84.93
-          },
-          "cas": {
-            "risque_relatif": 6.76,
-            "FER_exposes": 85.21,
-            "FER_population": 60.2
+            "risque_relatif": 6.86,
+            "FER_exposes": 85.42,
+            "FER_population": 79.16
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.09,
-            "FER_exposes": 80.35,
-            "FER_population": 39.97
+            "risque_relatif": 5.1,
+            "FER_exposes": 80.39,
+            "FER_population": 40.06
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 3.9,
-            "FER_exposes": 74.36,
-            "FER_population": 32.05
+            "risque_relatif": 3.89,
+            "FER_exposes": 74.29,
+            "FER_population": 32.02
           },
           "cas": {
             "risque_relatif": 2.32,
             "FER_exposes": 56.9,
-            "FER_population": 17.67
+            "FER_population": 17.7
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 17.71,
+            "FER_exposes": 94.35,
+            "FER_population": 81.43
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 22.79,
+            "FER_exposes": 95.61,
+            "FER_population": 85.12
+          },
+          "cas": {
+            "risque_relatif": 6.8,
+            "FER_exposes": 85.29,
+            "FER_population": 60.35
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 23.64,
-            "FER_exposes": 95.77,
-            "FER_population": 79.71
+            "risque_relatif": 24.03,
+            "FER_exposes": 95.84,
+            "FER_population": 80.01
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 32.17,
+            "risque_relatif": 32.13,
             "FER_exposes": 96.89,
             "FER_population": 84.4
           },
           "cas": {
-            "risque_relatif": 7.02,
-            "FER_exposes": 85.75,
+            "risque_relatif": 7.01,
+            "FER_exposes": 85.73,
             "FER_population": 51.09
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 13.67,
+            "FER_exposes": 92.68,
+            "FER_population": 58.77
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 19.33,
+            "FER_exposes": 94.83,
+            "FER_population": 67.34
+          },
+          "cas": {
+            "risque_relatif": 5.92,
+            "FER_exposes": 83.11,
+            "FER_population": 35.64
           }
         }
       }
@@ -1503,45 +1503,63 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.09,
-            "FER_exposes": 80.35,
-            "FER_population": 56.5
+            "risque_relatif": 8.54,
+            "FER_exposes": 88.29,
+            "FER_population": 62.09
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 8.02,
-            "FER_exposes": 87.53,
-            "FER_population": 69.02
+            "risque_relatif": 13.3,
+            "FER_exposes": 92.48,
+            "FER_population": 72.78
           },
           "cas": {
-            "risque_relatif": 4.19,
-            "FER_exposes": 76.13,
-            "FER_population": 50.32
+            "risque_relatif": 7.04,
+            "FER_exposes": 85.8,
+            "FER_population": 56.76
           }
         },
-        "[40,59]": {
+        "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 36.08,
-            "FER_exposes": 97.23,
-            "FER_population": 84.47
+            "risque_relatif": 4.8,
+            "FER_exposes": 79.17,
+            "FER_population": 37.54
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 55.72,
-            "FER_exposes": 98.21,
-            "FER_population": 89.46
+            "risque_relatif": 5.56,
+            "FER_exposes": 82.01,
+            "FER_population": 41.88
           },
           "cas": {
-            "risque_relatif": 7.32,
-            "FER_exposes": 86.34,
-            "FER_population": 49.48
+            "risque_relatif": 2.22,
+            "FER_exposes": 54.95,
+            "FER_population": 16.18
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 17.5,
+            "FER_exposes": 94.29,
+            "FER_population": 63.6
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 23.64,
+            "FER_exposes": 95.77,
+            "FER_population": 70.57
+          },
+          "cas": {
+            "risque_relatif": 5.73,
+            "FER_exposes": 82.55,
+            "FER_population": 33.38
           }
         },
         "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.47,
-            "FER_exposes": 93.09,
-            "FER_population": 75.36
+            "risque_relatif": 14.62,
+            "FER_exposes": 93.16,
+            "FER_population": 75.56
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1550,63 +1568,45 @@
             "FER_population": 79.95
           },
           "cas": {
-            "risque_relatif": 7.03,
-            "FER_exposes": 85.78,
-            "FER_population": 57.81
+            "risque_relatif": 7.08,
+            "FER_exposes": 85.88,
+            "FER_population": 57.99
           }
         },
-        "[60,79]": {
+        "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 17.45,
-            "FER_exposes": 94.27,
-            "FER_population": 63.47
+            "risque_relatif": 35.04,
+            "FER_exposes": 97.15,
+            "FER_population": 84.08
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 23.61,
-            "FER_exposes": 95.76,
-            "FER_population": 70.48
+            "risque_relatif": 52.15,
+            "FER_exposes": 98.08,
+            "FER_population": 88.81
           },
           "cas": {
-            "risque_relatif": 5.75,
-            "FER_exposes": 82.61,
-            "FER_population": 33.41
-          }
-        },
-        "[80;+]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.81,
-            "FER_exposes": 79.21,
-            "FER_population": 37.56
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 5.57,
-            "FER_exposes": 82.05,
-            "FER_population": 41.9
-          },
-          "cas": {
-            "risque_relatif": 2.22,
-            "FER_exposes": 54.95,
-            "FER_population": 16.14
+            "risque_relatif": 7.32,
+            "FER_exposes": 86.34,
+            "FER_population": 49.5
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.72,
-            "FER_exposes": 41.86,
-            "FER_population": 36.84
+            "risque_relatif": 5.04,
+            "FER_exposes": 80.16,
+            "FER_population": 70.54
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 1.17,
-            "FER_exposes": 14.53,
-            "FER_population": 12.11
+            "risque_relatif": 3.44,
+            "FER_exposes": 70.93,
+            "FER_population": 59.11
           },
           "cas": {
-            "risque_relatif": 3.08,
-            "FER_exposes": 67.53,
-            "FER_population": 62.75
+            "risque_relatif": 9.01,
+            "FER_exposes": 88.9,
+            "FER_population": 82.59
           }
         }
       }
@@ -1618,45 +1618,81 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.36,
-            "FER_exposes": 77.06,
-            "FER_population": 50.03
+            "risque_relatif": 7.52,
+            "FER_exposes": 86.7,
+            "FER_population": 56.33
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.32,
-            "FER_exposes": 84.18,
-            "FER_population": 61.31
+            "risque_relatif": 10.64,
+            "FER_exposes": 90.6,
+            "FER_population": 65.59
           },
           "cas": {
-            "risque_relatif": 4.17,
-            "FER_exposes": 76.02,
-            "FER_population": 48.55
+            "risque_relatif": 7.19,
+            "FER_exposes": 86.09,
+            "FER_population": 55.03
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 15.03,
+            "FER_exposes": 93.35,
+            "FER_population": 73.57
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 28.29,
+            "FER_exposes": 96.47,
+            "FER_population": 84.41
+          },
+          "cas": {
+            "risque_relatif": 7.09,
+            "FER_exposes": 85.9,
+            "FER_population": 54.71
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 13.7,
+            "FER_exposes": 92.7,
+            "FER_population": 56.05
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 18.35,
+            "FER_exposes": 94.55,
+            "FER_population": 63.55
+          },
+          "cas": {
+            "risque_relatif": 5.69,
+            "FER_exposes": 82.43,
+            "FER_population": 32.03
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 23.19,
-            "FER_exposes": 95.69,
-            "FER_population": 75.63
+            "risque_relatif": 22.86,
+            "FER_exposes": 95.63,
+            "FER_population": 75.36
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 26.59,
-            "FER_exposes": 96.24,
-            "FER_population": 78.16
+            "risque_relatif": 24.41,
+            "FER_exposes": 95.9,
+            "FER_population": 76.6
           },
           "cas": {
-            "risque_relatif": 7.53,
-            "FER_exposes": 86.72,
-            "FER_population": 47.71
+            "risque_relatif": 7.54,
+            "FER_exposes": 86.74,
+            "FER_population": 47.78
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.06,
-            "FER_exposes": 5.66,
-            "FER_population": 4.45
+            "risque_relatif": 3.23,
+            "FER_exposes": 69.04,
+            "FER_population": 54.33
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1665,63 +1701,27 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 3.65,
-            "FER_exposes": 72.6,
-            "FER_population": 67.29
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 14.65,
-            "FER_exposes": 93.17,
-            "FER_population": 73.05
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 28.25,
-            "FER_exposes": 96.46,
-            "FER_population": 84.4
-          },
-          "cas": {
-            "risque_relatif": 7.05,
-            "FER_exposes": 85.82,
-            "FER_population": 54.58
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 13.69,
-            "FER_exposes": 92.7,
-            "FER_population": 55.99
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 18.29,
-            "FER_exposes": 94.53,
-            "FER_population": 63.41
-          },
-          "cas": {
-            "risque_relatif": 5.69,
-            "FER_exposes": 82.43,
-            "FER_population": 31.98
+            "risque_relatif": 11.08,
+            "FER_exposes": 90.97,
+            "FER_population": 84.31
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.07,
-            "FER_exposes": 75.43,
-            "FER_population": 32.01
+            "risque_relatif": 4.06,
+            "FER_exposes": 75.37,
+            "FER_population": 31.98
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 4.52,
-            "FER_exposes": 77.88,
-            "FER_population": 35.05
+            "risque_relatif": 4.26,
+            "FER_exposes": 76.53,
+            "FER_population": 33.36
           },
           "cas": {
-            "risque_relatif": 2.25,
-            "FER_exposes": 55.56,
-            "FER_population": 16.08
+            "risque_relatif": 2.24,
+            "FER_exposes": 55.36,
+            "FER_population": 16.02
           }
         }
       }
@@ -1733,27 +1733,27 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 5.04,
-            "FER_exposes": 80.16,
-            "FER_population": 53.4
+            "risque_relatif": 8.79,
+            "FER_exposes": 88.62,
+            "FER_population": 58.93
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 6.09,
-            "FER_exposes": 83.58,
-            "FER_population": 59.09
+            "risque_relatif": 10.72,
+            "FER_exposes": 90.67,
+            "FER_population": 64.17
           },
           "cas": {
-            "risque_relatif": 4.26,
-            "FER_exposes": 76.53,
-            "FER_population": 48.06
+            "risque_relatif": 7.48,
+            "FER_exposes": 86.63,
+            "FER_population": 54.41
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.87,
-            "FER_exposes": 46.52,
-            "FER_population": 39.5
+            "risque_relatif": 5.68,
+            "FER_exposes": 82.39,
+            "FER_population": 69.71
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1762,58 +1762,22 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 3.73,
-            "FER_exposes": 73.19,
-            "FER_population": 67.21
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 20.22,
-            "FER_exposes": 95.05,
-            "FER_population": 77.48
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 71.84,
-            "FER_exposes": 98.61,
-            "FER_population": 92.69
-          },
-          "cas": {
-            "risque_relatif": 6.98,
-            "FER_exposes": 85.67,
-            "FER_population": 51.69
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 15.45,
-            "FER_exposes": 93.53,
-            "FER_population": 58.15
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 18.8,
-            "FER_exposes": 94.68,
-            "FER_population": 63.12
-          },
-          "cas": {
-            "risque_relatif": 6.09,
-            "FER_exposes": 83.58,
-            "FER_population": 32.86
+            "risque_relatif": 11.62,
+            "FER_exposes": 91.39,
+            "FER_population": 83.93
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.91,
-            "FER_exposes": 74.42,
-            "FER_population": 30.34
+            "risque_relatif": 3.9,
+            "FER_exposes": 74.36,
+            "FER_population": 30.31
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 3.01,
-            "FER_exposes": 66.78,
-            "FER_population": 23.12
+            "risque_relatif": 3.0,
+            "FER_exposes": 66.67,
+            "FER_population": 23.08
           },
           "cas": {
             "risque_relatif": 2.32,
@@ -1821,22 +1785,58 @@
             "FER_population": 16.53
           }
         },
-        "[40,59]": {
+        "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 32.36,
-            "FER_exposes": 96.91,
-            "FER_population": 80.22
+            "risque_relatif": 15.08,
+            "FER_exposes": 93.37,
+            "FER_population": 57.57
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 19.5,
+            "risque_relatif": 18.9,
+            "FER_exposes": 94.71,
+            "FER_population": 63.3
+          },
+          "cas": {
+            "risque_relatif": 6.04,
+            "FER_exposes": 83.44,
+            "FER_population": 32.7
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 20.4,
+            "FER_exposes": 95.1,
+            "FER_population": 77.61
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 72.04,
+            "FER_exposes": 98.61,
+            "FER_population": 92.69
+          },
+          "cas": {
+            "risque_relatif": 7.01,
+            "FER_exposes": 85.73,
+            "FER_population": 51.77
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 32.95,
+            "FER_exposes": 96.97,
+            "FER_population": 80.51
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 19.51,
             "FER_exposes": 94.87,
             "FER_population": 70.52
           },
           "cas": {
-            "risque_relatif": 7.79,
-            "FER_exposes": 87.16,
-            "FER_population": 46.76
+            "risque_relatif": 7.82,
+            "FER_exposes": 87.21,
+            "FER_population": 46.86
           }
         }
       }
@@ -1848,51 +1848,51 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.95,
-            "FER_exposes": 79.8,
-            "FER_population": 51.96
+            "risque_relatif": 8.77,
+            "FER_exposes": 88.6,
+            "FER_population": 57.54
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 5.81,
-            "FER_exposes": 82.79,
-            "FER_population": 56.85
+            "risque_relatif": 10.38,
+            "FER_exposes": 90.37,
+            "FER_population": 62.05
           },
           "cas": {
-            "risque_relatif": 3.87,
-            "FER_exposes": 74.16,
-            "FER_population": 44.03
+            "risque_relatif": 6.92,
+            "FER_exposes": 85.55,
+            "FER_population": 50.79
           }
         },
-        "[40,59]": {
+        "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 23.22,
-            "FER_exposes": 95.69,
-            "FER_population": 73.05
+            "risque_relatif": 18.59,
+            "FER_exposes": 94.62,
+            "FER_population": 62.15
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 26.89,
-            "FER_exposes": 96.28,
-            "FER_population": 75.95
+            "risque_relatif": 15.02,
+            "FER_exposes": 93.34,
+            "FER_population": 56.67
           },
           "cas": {
-            "risque_relatif": 7.01,
-            "FER_exposes": 85.73,
-            "FER_population": 42.31
+            "risque_relatif": 5.37,
+            "FER_exposes": 81.38,
+            "FER_population": 28.97
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.45,
-            "FER_exposes": 71.01,
-            "FER_population": 26.4
+            "risque_relatif": 3.42,
+            "FER_exposes": 70.76,
+            "FER_population": 26.2
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 2.69,
-            "FER_exposes": 62.83,
-            "FER_population": 19.84
+            "risque_relatif": 2.68,
+            "FER_exposes": 62.69,
+            "FER_population": 19.8
           },
           "cas": {
             "risque_relatif": 2.63,
@@ -1902,56 +1902,56 @@
         },
         "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 26.12,
-            "FER_exposes": 96.17,
-            "FER_population": 80.62
+            "risque_relatif": 27.05,
+            "FER_exposes": 96.3,
+            "FER_population": 81.13
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 141.04,
+            "risque_relatif": 141.66,
             "FER_exposes": 99.29,
             "FER_population": 95.87
           },
           "cas": {
-            "risque_relatif": 6.7,
-            "FER_exposes": 85.07,
-            "FER_population": 48.57
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 18.88,
-            "FER_exposes": 94.7,
-            "FER_population": 62.48
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 15.05,
-            "FER_exposes": 93.36,
-            "FER_population": 56.68
-          },
-          "cas": {
-            "risque_relatif": 5.4,
-            "FER_exposes": 81.48,
-            "FER_population": 29.07
+            "risque_relatif": 6.74,
+            "FER_exposes": 85.16,
+            "FER_population": 48.64
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.3,
-            "FER_exposes": 23.08,
-            "FER_population": 18.06
+            "risque_relatif": 4.02,
+            "FER_exposes": 75.12,
+            "FER_population": 58.43
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 1.8,
-            "FER_exposes": 44.44,
-            "FER_population": 37.03
+            "risque_relatif": 5.75,
+            "FER_exposes": 82.61,
+            "FER_population": 68.84
           },
           "cas": {
-            "risque_relatif": 3.37,
-            "FER_exposes": 70.33,
-            "FER_population": 63.53
+            "risque_relatif": 10.78,
+            "FER_exposes": 90.72,
+            "FER_population": 81.98
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 23.25,
+            "FER_exposes": 95.7,
+            "FER_population": 73.06
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 26.92,
+            "FER_exposes": 96.29,
+            "FER_population": 75.96
+          },
+          "cas": {
+            "risque_relatif": 7.02,
+            "FER_exposes": 85.75,
+            "FER_population": 42.31
           }
         }
       }
@@ -1963,27 +1963,27 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 4.18,
-            "FER_exposes": 76.08,
-            "FER_population": 45.93
+            "risque_relatif": 7.55,
+            "FER_exposes": 86.75,
+            "FER_population": 52.32
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 5.75,
-            "FER_exposes": 82.61,
-            "FER_population": 55.91
+            "risque_relatif": 10.08,
+            "FER_exposes": 90.08,
+            "FER_population": 60.35
           },
           "cas": {
-            "risque_relatif": 3.51,
-            "FER_exposes": 71.51,
-            "FER_population": 40.11
+            "risque_relatif": 6.35,
+            "FER_exposes": 84.25,
+            "FER_population": 47.27
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 1.41,
-            "FER_exposes": 29.08,
-            "FER_population": 22.85
+            "risque_relatif": 3.93,
+            "FER_exposes": 74.55,
+            "FER_population": 56.56
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -1992,40 +1992,22 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 3.22,
-            "FER_exposes": 68.94,
-            "FER_population": 61.56
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 21.64,
-            "FER_exposes": 95.38,
-            "FER_population": 76.46
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 30.35,
-            "FER_exposes": 96.71,
-            "FER_population": 82.2
-          },
-          "cas": {
-            "risque_relatif": 6.42,
-            "FER_exposes": 84.42,
-            "FER_population": 46.02
+            "risque_relatif": 10.43,
+            "FER_exposes": 90.41,
+            "FER_population": 80.72
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.54,
-            "FER_exposes": 71.75,
-            "FER_population": 26.72
+            "risque_relatif": 3.53,
+            "FER_exposes": 71.67,
+            "FER_population": 26.69
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 7.58,
-            "FER_exposes": 86.81,
-            "FER_population": 48.61
+            "risque_relatif": 7.57,
+            "FER_exposes": 86.79,
+            "FER_population": 48.6
           },
           "cas": {
             "risque_relatif": 2.52,
@@ -2033,40 +2015,58 @@
             "FER_population": 17.94
           }
         },
-        "[40,59]": {
+        "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 22.53,
-            "FER_exposes": 95.56,
-            "FER_population": 71.67
+            "risque_relatif": 22.89,
+            "FER_exposes": 95.63,
+            "FER_population": 77.41
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 21.03,
-            "FER_exposes": 95.24,
-            "FER_population": 70.18
+            "risque_relatif": 30.53,
+            "FER_exposes": 96.72,
+            "FER_population": 82.21
           },
           "cas": {
-            "risque_relatif": 6.81,
-            "FER_exposes": 85.32,
-            "FER_population": 40.57
+            "risque_relatif": 6.47,
+            "FER_exposes": 84.54,
+            "FER_population": 46.14
           }
         },
         "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.73,
-            "FER_exposes": 92.14,
-            "FER_population": 51.62
+            "risque_relatif": 12.59,
+            "FER_exposes": 92.06,
+            "FER_population": 51.36
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 17.41,
-            "FER_exposes": 94.26,
-            "FER_population": 59.89
+            "risque_relatif": 16.62,
+            "FER_exposes": 93.98,
+            "FER_population": 58.74
           },
           "cas": {
-            "risque_relatif": 4.71,
-            "FER_exposes": 78.77,
-            "FER_population": 25.25
+            "risque_relatif": 4.7,
+            "FER_exposes": 78.72,
+            "FER_population": 25.22
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 22.58,
+            "FER_exposes": 95.57,
+            "FER_population": 71.68
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 20.23,
+            "FER_exposes": 95.06,
+            "FER_population": 69.28
+          },
+          "cas": {
+            "risque_relatif": 6.83,
+            "FER_exposes": 85.36,
+            "FER_population": 40.6
           }
         }
       }
@@ -2078,27 +2078,99 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.48,
-            "FER_exposes": 71.26,
-            "FER_population": 39.31
+            "risque_relatif": 6.42,
+            "FER_exposes": 84.42,
+            "FER_population": 46.73
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 5.25,
-            "FER_exposes": 80.95,
-            "FER_population": 52.64
+            "risque_relatif": 9.9,
+            "FER_exposes": 89.9,
+            "FER_population": 59.04
           },
           "cas": {
-            "risque_relatif": 3.17,
-            "FER_exposes": 68.45,
-            "FER_population": 36.2
+            "risque_relatif": 5.81,
+            "FER_exposes": 82.79,
+            "FER_population": 43.8
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 2.69,
+            "FER_exposes": 62.83,
+            "FER_population": 41.89
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 9.66,
+            "FER_exposes": 89.65,
+            "FER_population": 78.68
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 29.33,
+            "FER_exposes": 96.59,
+            "FER_population": 76.26
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 31.99,
+            "FER_exposes": 96.87,
+            "FER_population": 77.84
+          },
+          "cas": {
+            "risque_relatif": 6.48,
+            "FER_exposes": 84.57,
+            "FER_population": 38.32
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 13.12,
+            "FER_exposes": 92.38,
+            "FER_population": 64.41
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 42.72,
+            "FER_exposes": 97.66,
+            "FER_population": 86.17
+          },
+          "cas": {
+            "risque_relatif": 6.57,
+            "FER_exposes": 84.78,
+            "FER_population": 45.41
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 9.41,
+            "FER_exposes": 89.37,
+            "FER_population": 42.84
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 14.3,
+            "FER_exposes": 93.01,
+            "FER_population": 54.26
+          },
+          "cas": {
+            "risque_relatif": 4.14,
+            "FER_exposes": 75.85,
+            "FER_population": 21.86
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.25,
-            "FER_exposes": 69.23,
-            "FER_population": 24.13
+            "risque_relatif": 3.32,
+            "FER_exposes": 69.88,
+            "FER_population": 24.71
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -2109,79 +2181,7 @@
           "cas": {
             "risque_relatif": 1.85,
             "FER_exposes": 45.95,
-            "FER_population": 10.71
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 29.01,
-            "FER_exposes": 96.55,
-            "FER_population": 76.1
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 31.88,
-            "FER_exposes": 96.86,
-            "FER_population": 77.83
-          },
-          "cas": {
-            "risque_relatif": 6.46,
-            "FER_exposes": 84.52,
-            "FER_population": 38.3
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.82,
-            "FER_exposes": -21.95,
-            "FER_population": -14.63
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 2.92,
-            "FER_exposes": 65.75,
-            "FER_population": 57.7
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 9.49,
-            "FER_exposes": 89.46,
-            "FER_population": 43.05
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 13.71,
-            "FER_exposes": 92.71,
-            "FER_population": 53.1
-          },
-          "cas": {
-            "risque_relatif": 4.13,
-            "FER_exposes": 75.79,
-            "FER_population": 21.82
-          }
-        },
-        "[20,39]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 12.63,
-            "FER_exposes": 92.08,
-            "FER_population": 63.62
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 42.36,
-            "FER_exposes": 97.64,
-            "FER_population": 86.15
-          },
-          "cas": {
-            "risque_relatif": 6.51,
-            "FER_exposes": 84.64,
-            "FER_population": 45.33
+            "FER_population": 10.76
           }
         }
       }
@@ -2193,81 +2193,63 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.33,
-            "FER_exposes": 69.97,
-            "FER_population": 37.44
+            "risque_relatif": 6.24,
+            "FER_exposes": 83.97,
+            "FER_population": 45.19
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 3.25,
-            "FER_exposes": 69.23,
-            "FER_population": 36.63
+            "risque_relatif": 6.02,
+            "FER_exposes": 83.39,
+            "FER_population": 44.12
           },
           "cas": {
-            "risque_relatif": 2.79,
-            "FER_exposes": 64.16,
-            "FER_population": 31.47
-          }
-        },
-        "[40,59]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 33.33,
-            "FER_exposes": 97.0,
-            "FER_population": 78.12
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 21.68,
-            "FER_exposes": 95.39,
-            "FER_population": 69.56
-          },
-          "cas": {
-            "risque_relatif": 5.88,
-            "FER_exposes": 82.99,
-            "FER_population": 35.0
-          }
-        },
-        "[0,19]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.89,
-            "FER_exposes": -12.36,
-            "FER_population": -8.39
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": -1,
-            "FER_exposes": -1,
-            "FER_population": -1
-          },
-          "cas": {
-            "risque_relatif": 2.85,
-            "FER_exposes": 64.91,
-            "FER_population": 56.52
+            "risque_relatif": 5.16,
+            "FER_exposes": 80.62,
+            "FER_population": 39.56
           }
         },
         "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 19.43,
-            "FER_exposes": 94.85,
-            "FER_population": 72.69
+            "risque_relatif": 19.87,
+            "FER_exposes": 94.97,
+            "FER_population": 72.99
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 18.95,
-            "FER_exposes": 94.72,
-            "FER_population": 72.17
+            "risque_relatif": 19.15,
+            "FER_exposes": 94.78,
+            "FER_population": 72.21
           },
           "cas": {
-            "risque_relatif": 6.38,
-            "FER_exposes": 84.33,
-            "FER_population": 43.73
+            "risque_relatif": 6.44,
+            "FER_exposes": 84.47,
+            "FER_population": 43.78
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 33.47,
+            "FER_exposes": 97.01,
+            "FER_population": 78.13
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 22.4,
+            "FER_exposes": 95.54,
+            "FER_population": 70.19
+          },
+          "cas": {
+            "risque_relatif": 5.92,
+            "FER_exposes": 83.11,
+            "FER_population": 35.11
           }
         },
         "[60,79]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.87,
-            "FER_exposes": 87.29,
-            "FER_population": 37.5
+            "risque_relatif": 7.86,
+            "FER_exposes": 87.28,
+            "FER_population": 37.49
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -2276,27 +2258,45 @@
             "FER_population": 37.07
           },
           "cas": {
-            "risque_relatif": 3.28,
-            "FER_exposes": 69.51,
-            "FER_population": 16.61
+            "risque_relatif": 3.29,
+            "FER_exposes": 69.6,
+            "FER_population": 16.66
+          }
+        },
+        "[0,19]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.15,
+            "FER_exposes": 68.25,
+            "FER_population": 47.07
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
+          },
+          "cas": {
+            "risque_relatif": 9.55,
+            "FER_exposes": 89.53,
+            "FER_population": 77.97
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.39,
-            "FER_exposes": 70.5,
-            "FER_population": 25.02
+            "risque_relatif": 3.48,
+            "FER_exposes": 71.26,
+            "FER_population": 25.73
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 4.11,
-            "FER_exposes": 75.67,
-            "FER_population": 30.27
+            "risque_relatif": 3.81,
+            "FER_exposes": 73.75,
+            "FER_population": 28.2
           },
           "cas": {
-            "risque_relatif": 1.75,
-            "FER_exposes": 42.86,
-            "FER_population": 9.48
+            "risque_relatif": 1.77,
+            "FER_exposes": 43.5,
+            "FER_population": 9.69
           }
         }
       }
@@ -2308,27 +2308,27 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.08,
-            "FER_exposes": 67.53,
-            "FER_population": 34.44
+            "risque_relatif": 5.73,
+            "FER_exposes": 82.55,
+            "FER_population": 42.0
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 4.55,
-            "FER_exposes": 78.02,
-            "FER_population": 47.3
+            "risque_relatif": 8.62,
+            "FER_exposes": 88.4,
+            "FER_population": 53.87
           },
           "cas": {
-            "risque_relatif": 2.49,
-            "FER_exposes": 59.84,
-            "FER_population": 27.37
+            "risque_relatif": 4.66,
+            "FER_exposes": 78.54,
+            "FER_population": 35.93
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.87,
-            "FER_exposes": -14.94,
-            "FER_population": -9.96
+            "risque_relatif": 2.95,
+            "FER_exposes": 66.1,
+            "FER_population": 44.07
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -2337,52 +2337,34 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 2.79,
-            "FER_exposes": 64.16,
-            "FER_population": 55.48
+            "risque_relatif": 9.47,
+            "FER_exposes": 89.44,
+            "FER_population": 77.37
           }
         },
-        "[40,59]": {
+        "[20,39]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 22.7,
-            "FER_exposes": 95.59,
-            "FER_population": 69.97
+            "risque_relatif": 19.39,
+            "FER_exposes": 94.84,
+            "FER_population": 71.63
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 27.49,
-            "FER_exposes": 96.36,
-            "FER_population": 73.99
+            "risque_relatif": 81.66,
+            "FER_exposes": 98.78,
+            "FER_population": 91.72
           },
           "cas": {
-            "risque_relatif": 4.96,
-            "FER_exposes": 79.84,
-            "FER_population": 29.86
-          }
-        },
-        "[60,79]": {
-          "hospitalisation_conventionnelle": {
-            "risque_relatif": 9.54,
-            "FER_exposes": 89.52,
-            "FER_population": 42.27
-          },
-          "vaccination_rate": -1,
-          "soins_critiques": {
-            "risque_relatif": 12.7,
-            "FER_exposes": 92.13,
-            "FER_population": 50.07
-          },
-          "cas": {
-            "risque_relatif": 2.92,
-            "FER_exposes": 65.75,
-            "FER_population": 14.12
+            "risque_relatif": 5.91,
+            "FER_exposes": 83.08,
+            "FER_population": 40.28
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.23,
-            "FER_exposes": 69.04,
-            "FER_population": 23.5
+            "risque_relatif": 3.21,
+            "FER_exposes": 68.85,
+            "FER_population": 23.35
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -2393,25 +2375,43 @@
           "cas": {
             "risque_relatif": 1.7,
             "FER_exposes": 41.18,
-            "FER_population": 8.79
+            "FER_population": 8.81
           }
         },
-        "[20,39]": {
+        "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 19.17,
-            "FER_exposes": 94.78,
-            "FER_population": 71.59
+            "risque_relatif": 22.14,
+            "FER_exposes": 95.48,
+            "FER_population": 69.33
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 80.73,
-            "FER_exposes": 98.76,
-            "FER_population": 91.71
+            "risque_relatif": 27.63,
+            "FER_exposes": 96.38,
+            "FER_population": 74.01
           },
           "cas": {
-            "risque_relatif": 5.86,
-            "FER_exposes": 82.94,
-            "FER_population": 40.25
+            "risque_relatif": 4.99,
+            "FER_exposes": 79.96,
+            "FER_population": 29.9
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 9.55,
+            "FER_exposes": 89.53,
+            "FER_population": 42.3
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 13.04,
+            "FER_exposes": 92.33,
+            "FER_population": 50.78
+          },
+          "cas": {
+            "risque_relatif": 2.93,
+            "FER_exposes": 65.87,
+            "FER_population": 14.19
           }
         }
       }
@@ -2423,27 +2423,99 @@
       "data": {
         "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 2.59,
-            "FER_exposes": 61.39,
-            "FER_population": 28.42
+            "risque_relatif": 4.78,
+            "FER_exposes": 79.08,
+            "FER_population": 36.13
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 3.58,
-            "FER_exposes": 72.07,
-            "FER_population": 39.17
+            "risque_relatif": 6.28,
+            "FER_exposes": 84.08,
+            "FER_population": 44.15
           },
           "cas": {
-            "risque_relatif": 2.2,
-            "FER_exposes": 54.55,
-            "FER_population": 23.02
+            "risque_relatif": 4.14,
+            "FER_exposes": 75.85,
+            "FER_population": 31.96
+          }
+        },
+        "[40,59]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 19.46,
+            "FER_exposes": 94.86,
+            "FER_population": 65.8
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 21.06,
+            "FER_exposes": 95.25,
+            "FER_population": 67.64
+          },
+          "cas": {
+            "risque_relatif": 4.87,
+            "FER_exposes": 79.47,
+            "FER_population": 28.75
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 7.15,
+            "FER_exposes": 86.01,
+            "FER_population": 34.13
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 10.37,
+            "FER_exposes": 90.36,
+            "FER_population": 44.1
+          },
+          "cas": {
+            "risque_relatif": 2.71,
+            "FER_exposes": 63.1,
+            "FER_population": 12.59
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 13.54,
+            "FER_exposes": 92.61,
+            "FER_population": 62.39
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 14.99,
+            "FER_exposes": 93.33,
+            "FER_population": 64.93
+          },
+          "cas": {
+            "risque_relatif": 5.38,
+            "FER_exposes": 81.41,
+            "FER_population": 36.7
+          }
+        },
+        "[80;+]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 3.23,
+            "FER_exposes": 69.04,
+            "FER_population": 23.35
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 1.96,
+            "FER_exposes": 48.98,
+            "FER_population": 11.6
+          },
+          "cas": {
+            "risque_relatif": 1.61,
+            "FER_exposes": 37.89,
+            "FER_population": 7.68
           }
         },
         "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 0.48,
-            "FER_exposes": -108.33,
-            "FER_population": -56.03
+            "risque_relatif": 1.63,
+            "FER_exposes": 38.65,
+            "FER_population": 19.95
           },
           "vaccination_rate": -1,
           "soins_critiques": {
@@ -2452,81 +2524,124 @@
             "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 2.44,
-            "FER_exposes": 59.02,
-            "FER_population": 49.86
+            "risque_relatif": 8.24,
+            "FER_exposes": 87.86,
+            "FER_population": 74.12
           }
-        },
-        "[60,79]": {
+        }
+      }
+    },
+    "202144": {
+      "week_start_date": "2021-11-01",
+      "week_end_date": "2021-11-07",
+      "vaccination_rate": -1,
+      "data": {
+        "all": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 7.41,
-            "FER_exposes": 86.5,
-            "FER_population": 35.07
+            "risque_relatif": 4.34,
+            "FER_exposes": 76.96,
+            "FER_population": 32.86
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 10.87,
-            "FER_exposes": 90.8,
-            "FER_population": 45.4
+            "risque_relatif": 5.68,
+            "FER_exposes": 82.39,
+            "FER_population": 40.7
           },
           "cas": {
-            "risque_relatif": 2.7,
-            "FER_exposes": 62.96,
-            "FER_population": 12.52
+            "risque_relatif": 3.96,
+            "FER_exposes": 74.75,
+            "FER_population": 30.27
           }
         },
-        "[20,39]": {
+        "[0,19]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 13.16,
-            "FER_exposes": 92.4,
-            "FER_population": 61.93
+            "risque_relatif": 1.4,
+            "FER_exposes": 28.57,
+            "FER_population": 13.44
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 15.73,
-            "FER_exposes": 93.64,
-            "FER_population": 66.33
+            "risque_relatif": -1,
+            "FER_exposes": -1,
+            "FER_population": -1
           },
           "cas": {
-            "risque_relatif": 5.32,
-            "FER_exposes": 81.2,
-            "FER_population": 36.62
+            "risque_relatif": 7.46,
+            "FER_exposes": 86.6,
+            "FER_population": 71.52
           }
         },
         "[80;+]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 3.36,
-            "FER_exposes": 70.24,
-            "FER_population": 24.34
+            "risque_relatif": 3.24,
+            "FER_exposes": 69.14,
+            "FER_population": 23.26
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 2.04,
-            "FER_exposes": 50.98,
-            "FER_population": 12.4
+            "risque_relatif": 5.44,
+            "FER_exposes": 81.62,
+            "FER_population": 37.5
           },
           "cas": {
-            "risque_relatif": 1.6,
-            "FER_exposes": 37.5,
-            "FER_population": 7.57
+            "risque_relatif": 1.82,
+            "FER_exposes": 45.05,
+            "FER_population": 10.0
+          }
+        },
+        "[20,39]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 12.54,
+            "FER_exposes": 92.03,
+            "FER_population": 59.65
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 24.97,
+            "FER_exposes": 96.0,
+            "FER_population": 75.43
+          },
+          "cas": {
+            "risque_relatif": 4.88,
+            "FER_exposes": 79.51,
+            "FER_population": 33.18
+          }
+        },
+        "[60,79]": {
+          "hospitalisation_conventionnelle": {
+            "risque_relatif": 6.68,
+            "FER_exposes": 85.03,
+            "FER_population": 32.03
+          },
+          "vaccination_rate": -1,
+          "soins_critiques": {
+            "risque_relatif": 7.04,
+            "FER_exposes": 85.8,
+            "FER_population": 33.39
+          },
+          "cas": {
+            "risque_relatif": 2.76,
+            "FER_exposes": 63.77,
+            "FER_population": 12.73
           }
         },
         "[40,59]": {
           "hospitalisation_conventionnelle": {
-            "risque_relatif": 18.87,
-            "FER_exposes": 94.7,
-            "FER_population": 65.18
+            "risque_relatif": 11.05,
+            "FER_exposes": 90.95,
+            "FER_population": 50.63
           },
           "vaccination_rate": -1,
           "soins_critiques": {
-            "risque_relatif": 27.35,
-            "FER_exposes": 96.34,
-            "FER_population": 73.4
+            "risque_relatif": 23.21,
+            "FER_exposes": 95.69,
+            "FER_population": 69.38
           },
           "cas": {
-            "risque_relatif": 4.85,
-            "FER_exposes": 79.38,
-            "FER_population": 28.73
+            "risque_relatif": 4.29,
+            "FER_exposes": 76.69,
+            "FER_population": 25.12
           }
         }
       }
