@@ -14,7 +14,7 @@ def df_to_json(df):
     return dict_json
 
 def export_json(data_json):
-    with open(CWD + '/data/' + 'fr-en-situation_nationale_covid.json', 'w', encoding='utf-8') as f:
+    with open('data/' + 'fr-en-situation_nationale_covid.json', 'w', encoding='utf-8') as f:
         json.dump(data_json, f, ensure_ascii=False, indent=4)
 
 

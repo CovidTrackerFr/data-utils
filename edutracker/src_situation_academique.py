@@ -6,7 +6,7 @@ import numpy as np
 CWD = os.getcwd()
 
 def get_data():
-    return pd.read_csv(CWD + "/data/fr-en-situation_academique_covid.csv", sep=";").sort_values(by="date")
+    return pd.read_csv("data/fr-en-situation_academique_covid.csv", sep=";").sort_values(by="date")
 
 def df_to_json(df):
     academies = list(df.academie.unique())
@@ -30,7 +30,7 @@ def df_to_json(df):
     return dict_json
 
 def export_json(data_json):
-    with open(CWD + '/data/' + 'fr-en-situation_academique_covid.json', 'w', encoding='utf-8') as f:
+    with open('data/' + 'fr-en-situation_academique_covid.json', 'w', encoding='utf-8') as f:
         json.dump(data_json, f, ensure_ascii=False, indent=4)
 
 
