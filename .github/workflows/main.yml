@@ -32,9 +32,13 @@ jobs:
     - name: VaxImpact
       run: |
         python vaximpact/vaximpact.py
+    - name: EduTracker
+      run: |
+        python edutracker/src_situation_nationale.py 
+        python edutracker/src_situation_academique.py
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: VaxImpact update
+        commit_message: VaxImpact or Edutracker update
         branch: main
         push_options: '--force'
     
