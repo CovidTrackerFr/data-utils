@@ -32,6 +32,9 @@ jobs:
     - name: VaxImpact
       run: |
         python vaximpact/vaximpact.py
+    - name: Data Vaccination Ameli
+      run: |
+        python vaccination-ameli/src/src.py
     - name: EduTracker
       run: |
         python edutracker/src_situation_nationale.py 
