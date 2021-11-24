@@ -12,12 +12,10 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8]
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -28,7 +26,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        
+    - name: CovidTracker
+      run: |
+        python covidtracker/src/covid19_france_insee.py 
     - name: VaxImpact
       run: |
         python vaximpact/vaximpact.py
@@ -39,6 +39,9 @@ jobs:
       run: |
         python edutracker/src_situation_nationale.py 
         python edutracker/src_situation_academique.py
+    - name: CovidTracker
+      run: |
+        python covidtracker/covid19_france_insee.py 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: VaxImpact or Edutracker update
