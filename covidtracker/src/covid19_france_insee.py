@@ -1,41 +1,28 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import plotly
 from datetime import datetime
 import os
+import psutil
 PATH = os.getcwd()
-
-
-# In[6]:
 
 
 df_mortalite = pd.read_csv('https://www.insee.fr/fr/statistiques/fichier/4487988/2021-11-19_deces_quotidiens_departement_csv.zip', sep=";", encoding="'windows-1252'")
 df_mortalite_2018 = pd.read_csv(PATH+'/covidtracker/input/deces_quotidiens_departement_csv_avec_2018.csv', sep=";", encoding="'windows-1252'")
 
 
-# In[7]:
-
-
-
 df_mortalite_france = df_mortalite[df_mortalite["Zone"] == "France"]
 df_mortalite_france_2018 = df_mortalite_2018[df_mortalite_2018["Zone"] == "France"]
 window = 7
-#df_mortalite_france.loc[:,"Total_deces_2018_diff"] = df_mortalite_france["Total_deces_2018"].diff().rolling(window=window, center=True).mean()
 df_mortalite_france_2018.loc[:,"Total_deces_2018_diff"] = df_mortalite_france_2018["Total_deces_2018"].diff().rolling(window=window, center=True).mean()
 
 df_mortalite_france.loc[:,"Total_deces_2019_diff"] = df_mortalite_france["Total_deces_2019"].diff().rolling(window=window, center=True).mean()
 df_mortalite_france.loc[:,"Total_deces_2020_diff"] = df_mortalite_france["Total_deces_2020"].diff().rolling(window=window, center=True).mean()
 df_mortalite_france.loc[:,"Total_deces_2021_diff"] = df_mortalite_france["Total_deces_2021"].diff().rolling(window=window, center=True).mean()
-
-
-# In[10]:
 
 
 #### Construction du graphique
