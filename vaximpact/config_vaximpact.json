@@ -3,7 +3,13 @@
     "region_api": "https://data.drees.solidarites-sante.gouv.fr/api/records/1.0/search/?dataset=covid-19-resultats-regionaux-issus-des-appariements-entre-si-vic-si-dep-et-vac-s&q=&rows=-1&start=0&refine.region={region}",
     "year": 2021,
     "round_to_decimal": 2,
-    "age_categories" : ["[0,19]", "[20,39]", "[40,59]","[60,79]", "[80;+]"],
+    "age_categories": [
+        "[0,19]",
+        "[20,39]",
+        "[40,59]",
+        "[60,79]",
+        "[80;+]"
+    ],
     "regions": {
         "ARA": "Auvergne-Rhône-Alpes",
         "BFC": "Bourgogne-Franche-Comté",
@@ -23,6 +29,26 @@
         "OCC": "Occitanie",
         "PAC": "Provence-Alpes-Côte d'Azur",
         "PDL": "Pays de la Loire"
+    },
+    "regions_number": {
+        "84": "ARA",
+        "25": "BFC",
+        "53": "BRE",
+        "94": "COR",
+        "24": "CVL",
+        "44": "GES",
+        "01": "GUA",
+        "03": "GUY",
+        "32": "HDF",
+        "11": "IDF",
+        "04": "LRE",
+        "02": "MAR",
+        "06": "MAY",
+        "75": "NAQ",
+        "28": "NOR",
+        "76": "OCC",
+        "93": "PAC",
+        "52": "PDL"
     },
     "population": {
         "FR": 67407241,
@@ -45,20 +71,27 @@
         "PAC": 5985697,
         "PDL": 3837166
     },
-    "groupe_vaccinés": [
-        "Vaccination complète"    
+    "groupe_vaccinés_2_doses": [
+        "Complet de moins de 3 mois - sans rappel",
+        "Complet entre 3 mois et 6 mois - sans rappel",
+        "Complet de 6 mois et plus - sans rappel"
+    ],
+    "groupe_vaccinés_3_doses": [
+        "Complet de moins de 3 mois - avec rappel",
+        "Complet entre 3 mois et 6 mois - avec rappel",
+        "Complet de 6 mois et plus - avec rappel"
     ],
     "groupe_non_vaccinés": [
         "Non-vaccinés"
-        ],
+    ],
     "data_type_france": {
         "hospitalisation_conventionnelle": "hc_pcr",
         "soins_critiques": "sc_pcr",
-        "cas":"nb_pcr0"
+        "cas": "nb_pcr0"
     },
     "data_type_regions": {
         "hospitalisation_conventionnelle": "hc_pcr",
         "soins_critiques": "sc_pcr",
-        "cas":"nb_pcr0"
+        "cas": "nb_pcr0"
     }
 }
