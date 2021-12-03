@@ -27,8 +27,8 @@ DICT_INSEE_POP = get_config().get("population")
 # Qui prendre en compte dans les vaccinés ?
 # Groupes disponibles = "Vaccination complète", "Non-vaccinés" "Primo dose efficace", "Primo dose récente"
 
-VACCINES_3_DOSES = {"label": "vaccinés 3 doses", "data": get_config().get("groupe_vaccinés_3_doses", None)}
-VACCINES_2_DOSES = {"label": "vaccinés 2 doses", "data": get_config().get("groupe_vaccinés_2_doses", None)}
+VACCINES_3_DOSES = {"label": "vaccinés avec rappel", "data": get_config().get("groupe_vaccinés_3_doses", None)}
+VACCINES_2_DOSES = {"label": "vaccinés sans rappel", "data": get_config().get("groupe_vaccinés_2_doses", None)}
 NON_VACCINES = {"label": "non vaccinés", "data": get_config().get("groupe_non_vaccinés", None)}
 
 # Groupes d'âge
