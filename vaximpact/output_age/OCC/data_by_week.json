@@ -1,5 +1,5 @@
 {
-  "last_updated": "17/12/2021 09:19:28",
+  "last_updated": "17/12/2021 09:39:41",
   "data_by_week": {
     "202122": {
       "start_date": "2021-05-31",
@@ -17,7 +17,11 @@
             "nb_pcr_sympt": 7996,
             "effectif": 3485751.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
+            "effectif": 1015790.0,
             "sc_pcr": 1,
             "nb_pcr0": 137,
             "hc": 14,
@@ -25,8 +29,7 @@
             "nb_pcr_sympt0": 48,
             "nb_pcr": 22942,
             "sc": 1,
-            "nb_pcr_sympt": 1222,
-            "effectif": 1015790.0
+            "nb_pcr_sympt": 1222
           },
           "Primo dose récente": {
             "sc_pcr": 1,
@@ -40,7 +43,6 @@
             "effectif": 362700.0
           },
           "Vaccination complète": {
-            "effectif": 1121456.0,
             "sc_pcr": 6,
             "nb_pcr0": 318,
             "hc": 11,
@@ -48,10 +50,8 @@
             "nb_pcr_sympt0": 83,
             "nb_pcr": 26805,
             "sc": 8,
-            "nb_pcr_sympt": 1034
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
+            "nb_pcr_sympt": 1034,
+            "effectif": 1121456.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -104,9 +104,6 @@
             "nb_pcr_sympt": 384,
             "effectif": 372874.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Vaccination complète": {
             "sc_pcr": 1,
             "nb_pcr0": 178,
@@ -117,6 +114,9 @@
             "sc": 1,
             "nb_pcr_sympt": 938,
             "effectif": 1289394.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -147,9 +147,6 @@
             "nb_pcr_sympt": 3689,
             "effectif": 3125670.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose efficace": {
             "sc_pcr": 1,
             "nb_pcr0": 91,
@@ -161,16 +158,8 @@
             "nb_pcr_sympt": 856,
             "effectif": 1041551.0
           },
-          "Primo dose récente": {
-            "sc_pcr": 0,
-            "nb_pcr0": 64,
-            "hc": 0,
-            "hc_pcr": 0,
-            "nb_pcr_sympt0": 27,
-            "nb_pcr": 7769,
-            "sc": 0,
-            "nb_pcr_sympt": 284,
-            "effectif": 345881.0
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Vaccination complète": {
             "sc_pcr": 3,
@@ -182,6 +171,17 @@
             "sc": 3,
             "nb_pcr_sympt": 819,
             "effectif": 1472595.0
+          },
+          "Primo dose récente": {
+            "sc_pcr": 0,
+            "nb_pcr0": 64,
+            "hc": 0,
+            "hc_pcr": 0,
+            "nb_pcr_sympt0": 27,
+            "nb_pcr": 7769,
+            "sc": 0,
+            "nb_pcr_sympt": 284,
+            "effectif": 345881.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -212,30 +212,8 @@
             "nb_pcr_sympt": 2961,
             "effectif": 3015249.0
           },
-          "Primo dose récente": {
-            "sc_pcr": 0,
-            "nb_pcr0": 42,
-            "hc": 0,
-            "hc_pcr": 0,
-            "nb_pcr_sympt0": 14,
-            "nb_pcr": 5881,
-            "sc": 0,
-            "nb_pcr_sympt": 246,
-            "effectif": 262147.0
-          },
           "Ensemble": {
             "effectif": 5985697.0
-          },
-          "Vaccination complète": {
-            "sc_pcr": 1,
-            "nb_pcr0": 123,
-            "hc": 8,
-            "hc_pcr": 6,
-            "nb_pcr_sympt0": 39,
-            "nb_pcr": 24368,
-            "sc": 1,
-            "nb_pcr_sympt": 870,
-            "effectif": 1687883.0
           },
           "Primo dose efficace": {
             "sc_pcr": 1,
@@ -247,6 +225,28 @@
             "sc": 1,
             "nb_pcr_sympt": 881,
             "effectif": 1020418.0
+          },
+          "Primo dose récente": {
+            "sc_pcr": 0,
+            "nb_pcr0": 42,
+            "hc": 0,
+            "hc_pcr": 0,
+            "nb_pcr_sympt0": 14,
+            "nb_pcr": 5881,
+            "sc": 0,
+            "nb_pcr_sympt": 246,
+            "effectif": 262147.0
+          },
+          "Vaccination complète": {
+            "sc_pcr": 1,
+            "nb_pcr0": 123,
+            "hc": 8,
+            "hc_pcr": 6,
+            "nb_pcr_sympt0": 39,
+            "nb_pcr": 24368,
+            "sc": 1,
+            "nb_pcr_sympt": 870,
+            "effectif": 1687883.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -266,18 +266,8 @@
       "end_date": "2021-07-04",
       "data": {
         "all": {
-          "non vaccinés": {
-            "sc_pcr": 1,
-            "nb_pcr0": 801,
-            "hc": 15,
-            "hc_pcr": 14,
-            "nb_pcr_sympt0": 349,
-            "nb_pcr": 55909,
-            "sc": 2,
-            "nb_pcr_sympt": 3306,
-            "effectif": 2916422.0
-          },
           "Primo dose efficace": {
+            "effectif": 951417.0,
             "sc_pcr": 0,
             "nb_pcr0": 126,
             "hc": 0,
@@ -285,8 +275,10 @@
             "nb_pcr_sympt0": 55,
             "nb_pcr": 21351,
             "sc": 0,
-            "nb_pcr_sympt": 1120,
-            "effectif": 951417.0
+            "nb_pcr_sympt": 1120
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Primo dose récente": {
             "sc_pcr": 1,
@@ -299,9 +291,6 @@
             "nb_pcr_sympt": 263,
             "effectif": 197690.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Vaccination complète": {
             "sc_pcr": 3,
             "nb_pcr0": 171,
@@ -312,6 +301,17 @@
             "sc": 3,
             "nb_pcr_sympt": 1206,
             "effectif": 1920168.0
+          },
+          "non vaccinés": {
+            "sc_pcr": 1,
+            "nb_pcr0": 801,
+            "hc": 15,
+            "hc_pcr": 14,
+            "nb_pcr_sympt0": 349,
+            "nb_pcr": 55909,
+            "sc": 2,
+            "nb_pcr_sympt": 3306,
+            "effectif": 2916422.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -353,9 +353,6 @@
             "nb_pcr_sympt": 1373,
             "effectif": 805855.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose récente": {
             "sc_pcr": 1,
             "nb_pcr0": 148,
@@ -377,6 +374,9 @@
             "sc": 3,
             "nb_pcr_sympt": 1905,
             "effectif": 2176623.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -429,6 +429,9 @@
             "nb_pcr_sympt": 519,
             "effectif": 230878.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Vaccination complète": {
             "sc_pcr": 4,
             "nb_pcr0": 1087,
@@ -439,9 +442,6 @@
             "sc": 6,
             "nb_pcr_sympt": 3043,
             "effectif": 2413132.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -472,6 +472,9 @@
             "nb_pcr_sympt": 14269,
             "effectif": 2460176.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 3,
             "nb_pcr0": 1482,
@@ -493,9 +496,6 @@
             "sc": 0,
             "nb_pcr_sympt": 1626,
             "effectif": 338052.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Vaccination complète": {
             "sc_pcr": 8,
@@ -537,9 +537,6 @@
             "nb_pcr_sympt": 15528,
             "effectif": 2219577.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose efficace": {
             "sc_pcr": 5,
             "nb_pcr0": 1368,
@@ -572,6 +569,9 @@
             "sc": 15,
             "nb_pcr_sympt": 6800,
             "effectif": 2887637.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -613,6 +613,9 @@
             "nb_pcr_sympt": 1909,
             "effectif": 469698.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose récente": {
             "sc_pcr": 6,
             "nb_pcr0": 2511,
@@ -634,9 +637,6 @@
             "sc": 33,
             "nb_pcr_sympt": 7879,
             "effectif": 3083195.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -678,6 +678,9 @@
             "nb_pcr_sympt": 2039,
             "effectif": 554334.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose récente": {
             "sc_pcr": 15,
             "nb_pcr0": 1999,
@@ -688,9 +691,6 @@
             "sc": 17,
             "nb_pcr_sympt": 1953,
             "effectif": 300108.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Vaccination complète": {
             "sc_pcr": 23,
@@ -721,6 +721,20 @@
       "end_date": "2021-08-22",
       "data": {
         "all": {
+          "non vaccinés": {
+            "sc_pcr": 99,
+            "nb_pcr0": 9879,
+            "hc": 322,
+            "hc_pcr": 259,
+            "nb_pcr_sympt0": 5366,
+            "nb_pcr": 67346,
+            "sc": 122,
+            "nb_pcr_sympt": 9942,
+            "effectif": 1808744.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 8,
             "nb_pcr0": 1212,
@@ -732,9 +746,6 @@
             "nb_pcr_sympt": 1927,
             "effectif": 565732.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose récente": {
             "sc_pcr": 6,
             "nb_pcr0": 1031,
@@ -745,17 +756,6 @@
             "sc": 7,
             "nb_pcr_sympt": 1142,
             "effectif": 205017.0
-          },
-          "non vaccinés": {
-            "sc_pcr": 99,
-            "nb_pcr0": 9879,
-            "hc": 322,
-            "hc_pcr": 259,
-            "nb_pcr_sympt0": 5366,
-            "nb_pcr": 67346,
-            "sc": 122,
-            "nb_pcr_sympt": 9942,
-            "effectif": 1808744.0
           },
           "Vaccination complète": {
             "sc_pcr": 29,
@@ -819,9 +819,6 @@
             "nb_pcr_sympt": 601,
             "effectif": 148492.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Vaccination complète": {
             "sc_pcr": 32,
             "nb_pcr0": 3522,
@@ -832,6 +829,9 @@
             "sc": 36,
             "nb_pcr_sympt": 7482,
             "effectif": 3609365.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -852,6 +852,7 @@
       "data": {
         "all": {
           "non vaccinés": {
+            "effectif": 1681265.0,
             "sc_pcr": 54,
             "nb_pcr0": 4757,
             "hc": 179,
@@ -859,8 +860,10 @@
             "nb_pcr_sympt0": 2468,
             "nb_pcr": 43655,
             "sc": 60,
-            "nb_pcr_sympt": 5868,
-            "effectif": 1681265.0
+            "nb_pcr_sympt": 5868
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Primo dose efficace": {
             "sc_pcr": 7,
@@ -895,9 +898,6 @@
             "nb_pcr_sympt": 7284,
             "effectif": 3813573.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -926,6 +926,9 @@
             "sc": 42,
             "nb_pcr_sympt": 4885,
             "effectif": 1639985.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Primo dose efficace": {
             "sc_pcr": 2,
@@ -960,9 +963,6 @@
             "nb_pcr_sympt": 6600,
             "effectif": 3975050.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -992,9 +992,6 @@
             "nb_pcr_sympt": 4794,
             "effectif": 1606647.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose efficace": {
             "sc_pcr": 0,
             "nb_pcr0": 136,
@@ -1006,17 +1003,6 @@
             "nb_pcr_sympt": 552,
             "effectif": 236075.0
           },
-          "Vaccination complète": {
-            "sc_pcr": 8,
-            "nb_pcr0": 1263,
-            "hc": 57,
-            "hc_pcr": 45,
-            "nb_pcr_sympt0": 543,
-            "nb_pcr": 56786,
-            "sc": 9,
-            "nb_pcr_sympt": 6493,
-            "effectif": 4073957.0
-          },
           "Primo dose récente": {
             "sc_pcr": 1,
             "nb_pcr0": 76,
@@ -1027,6 +1013,20 @@
             "sc": 1,
             "nb_pcr_sympt": 205,
             "effectif": 69018.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
+          "Vaccination complète": {
+            "sc_pcr": 8,
+            "nb_pcr0": 1263,
+            "hc": 57,
+            "hc_pcr": 45,
+            "nb_pcr_sympt0": 543,
+            "nb_pcr": 56786,
+            "sc": 9,
+            "nb_pcr_sympt": 6493,
+            "effectif": 4073957.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -1056,6 +1056,9 @@
             "sc": 14,
             "nb_pcr_sympt": 4177,
             "effectif": 1585023.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Primo dose efficace": {
             "sc_pcr": 1,
@@ -1090,9 +1093,6 @@
             "nb_pcr_sympt": 6961,
             "effectif": 4148087.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -1111,6 +1111,17 @@
       "end_date": "2021-10-03",
       "data": {
         "all": {
+          "non vaccinés": {
+            "sc_pcr": 7,
+            "nb_pcr0": 1102,
+            "hc": 49,
+            "hc_pcr": 37,
+            "nb_pcr_sympt0": 526,
+            "nb_pcr": 28463,
+            "sc": 13,
+            "nb_pcr_sympt": 4056,
+            "effectif": 1563978.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 0,
             "nb_pcr0": 47,
@@ -1121,9 +1132,6 @@
             "sc": 0,
             "nb_pcr_sympt": 459,
             "effectif": 174339.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Primo dose récente": {
             "sc_pcr": 1,
@@ -1147,16 +1155,8 @@
             "nb_pcr_sympt": 7105,
             "effectif": 4208626.0
           },
-          "non vaccinés": {
-            "sc_pcr": 7,
-            "nb_pcr0": 1102,
-            "hc": 49,
-            "hc_pcr": 37,
-            "nb_pcr_sympt0": 526,
-            "nb_pcr": 28463,
-            "sc": 13,
-            "nb_pcr_sympt": 4056,
-            "effectif": 1563978.0
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -1198,9 +1198,6 @@
             "nb_pcr_sympt": 279,
             "effectif": 149159.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose récente": {
             "sc_pcr": 0,
             "nb_pcr0": 15,
@@ -1222,6 +1219,9 @@
             "sc": 6,
             "nb_pcr_sympt": 5960,
             "effectif": 4255427.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -1251,9 +1251,6 @@
             "sc": 11,
             "nb_pcr_sympt": 2890,
             "effectif": 1528405.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Primo dose efficace": {
             "sc_pcr": 0,
@@ -1288,6 +1285,9 @@
             "nb_pcr_sympt": 5766,
             "effectif": 4294185.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -1306,6 +1306,20 @@
       "end_date": "2021-10-24",
       "data": {
         "all": {
+          "non vaccinés": {
+            "sc_pcr": 12,
+            "nb_pcr0": 979,
+            "hc": 45,
+            "hc_pcr": 31,
+            "nb_pcr_sympt0": 541,
+            "nb_pcr": 20449,
+            "sc": 13,
+            "nb_pcr_sympt": 3133,
+            "effectif": 1513646.0
+          },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 0,
             "nb_pcr0": 33,
@@ -1316,9 +1330,6 @@
             "sc": 0,
             "nb_pcr_sympt": 197,
             "effectif": 120826.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Primo dose récente": {
             "sc_pcr": 0,
@@ -1341,17 +1352,6 @@
             "sc": 8,
             "nb_pcr_sympt": 6146,
             "effectif": 4323683.0
-          },
-          "non vaccinés": {
-            "sc_pcr": 12,
-            "nb_pcr0": 979,
-            "hc": 45,
-            "hc_pcr": 31,
-            "nb_pcr_sympt0": 541,
-            "nb_pcr": 20449,
-            "sc": 13,
-            "nb_pcr_sympt": 3133,
-            "effectif": 1513646.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -1382,6 +1382,9 @@
             "nb_pcr_sympt": 2810,
             "effectif": 1500677.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 1,
             "nb_pcr0": 24,
@@ -1403,9 +1406,6 @@
             "sc": 0,
             "nb_pcr_sympt": 56,
             "effectif": 24227.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Vaccination complète": {
             "sc_pcr": 15,
@@ -1447,9 +1447,6 @@
             "nb_pcr_sympt": 2706,
             "effectif": 1489527.0
           },
-          "Ensemble": {
-            "effectif": 5985697.0
-          },
           "Primo dose efficace": {
             "sc_pcr": 0,
             "nb_pcr0": 26,
@@ -1483,6 +1480,9 @@
             "nb_pcr_sympt": 5821,
             "effectif": 4368300.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -1512,6 +1512,9 @@
             "nb_pcr_sympt": 3070,
             "effectif": 1479482.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 2,
             "nb_pcr0": 44,
@@ -1533,9 +1536,6 @@
             "sc": 0,
             "nb_pcr_sympt": 27,
             "effectif": 18474.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Vaccination complète": {
             "sc_pcr": 28,
@@ -1566,6 +1566,17 @@
       "end_date": "2021-11-21",
       "data": {
         "all": {
+          "non vaccinés": {
+            "sc_pcr": 25,
+            "nb_pcr0": 3091,
+            "hc": 78,
+            "hc_pcr": 63,
+            "nb_pcr_sympt0": 1867,
+            "nb_pcr": 23713,
+            "sc": 33,
+            "nb_pcr_sympt": 5171,
+            "effectif": 1466558.0
+          },
           "Primo dose efficace": {
             "sc_pcr": 0,
             "nb_pcr0": 80,
@@ -1576,9 +1587,6 @@
             "sc": 0,
             "nb_pcr_sympt": 229,
             "effectif": 94449.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "Primo dose récente": {
             "sc_pcr": 0,
@@ -1591,6 +1599,9 @@
             "nb_pcr_sympt": 63,
             "effectif": 20521.0
           },
+          "Ensemble": {
+            "effectif": 5985697.0
+          },
           "Vaccination complète": {
             "sc_pcr": 32,
             "nb_pcr0": 4935,
@@ -1601,17 +1612,6 @@
             "sc": 37,
             "nb_pcr_sympt": 12317,
             "effectif": 4404169.0
-          },
-          "non vaccinés": {
-            "sc_pcr": 25,
-            "nb_pcr0": 3091,
-            "hc": 78,
-            "hc_pcr": 63,
-            "nb_pcr_sympt0": 1867,
-            "nb_pcr": 23713,
-            "sc": 33,
-            "nb_pcr_sympt": 5171,
-            "effectif": 1466558.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
@@ -1642,16 +1642,8 @@
             "nb_pcr_sympt": 8911,
             "effectif": 1452093.0
           },
-          "Primo dose récente": {
-            "sc_pcr": 1,
-            "nb_pcr0": 67,
-            "hc": 1,
-            "hc_pcr": 1,
-            "nb_pcr_sympt0": 43,
-            "nb_pcr": 556,
-            "sc": 1,
-            "nb_pcr_sympt": 89,
-            "effectif": 24732.0
+          "Ensemble": {
+            "effectif": 5985697.0
           },
           "Primo dose efficace": {
             "sc_pcr": 1,
@@ -1664,6 +1656,17 @@
             "nb_pcr_sympt": 318,
             "effectif": 84798.0
           },
+          "Primo dose récente": {
+            "sc_pcr": 1,
+            "nb_pcr0": 67,
+            "hc": 1,
+            "hc_pcr": 1,
+            "nb_pcr_sympt0": 43,
+            "nb_pcr": 556,
+            "sc": 1,
+            "nb_pcr_sympt": 89,
+            "effectif": 24732.0
+          },
           "Vaccination complète": {
             "sc_pcr": 51,
             "nb_pcr0": 8119,
@@ -1674,9 +1677,6 @@
             "sc": 64,
             "nb_pcr_sympt": 20359,
             "effectif": 4424074.0
-          },
-          "Ensemble": {
-            "effectif": 5985697.0
           },
           "vaccinés sans rappel": {
             "hc_pcr": 0,
