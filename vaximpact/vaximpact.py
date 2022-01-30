@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 import os
 import pytz
-
+from statistics import mean
 PATH = os.getcwd() + "/vaximpact/"
 
 logging.basicConfig(format="%(asctime)-15s %(message)s")
@@ -21,7 +21,6 @@ def get_config():
     return config
 
 
-YEAR = get_config().get("year", None)
 DICT_INSEE_POP = get_config().get("population")
 
 # Qui prendre en compte dans les vaccinés ?
@@ -35,7 +34,7 @@ NON_VACCINES = {"label": "non vaccinés", "data": get_config().get("groupe_non_v
 AGE = get_config().get("age_categories")
 ROUND_DECIMAL = get_config().get("round_to_decimal", 2)
 
-if not YEAR or not DICT_INSEE_POP or not VACCINES_3_DOSES or not VACCINES_2_DOSES or not NON_VACCINES:
+if not DICT_INSEE_POP or not VACCINES_3_DOSES or not VACCINES_2_DOSES or not NON_VACCINES:
     logger.error("[ERROR] - Check config file accessibility and variables.")
     exit(1)
 
@@ -100,7 +99,9 @@ class Vaximpact:
         sum_by_week = defaultdict(
             lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(int))))
         )
-
+        omicron_mean = defaultdict(
+            lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
+        )
         for record in self.api_records:
             if self.toutelafrance:
                 age = record["fields"]["age"]
@@ -112,9 +113,14 @@ class Vaximpact:
                 vac_statut = self.groupe_non_vaccinés_label
             elif vac_statut in self.groupe_vaccinés_3_doses:
                 vac_statut = self.groupe_vaccinés_3_doses_label
-            week_iso_number = datetime.fromisoformat(record["fields"]["date"]).isocalendar()[1]
-            first_day, last_day = get_start_and_end_date_from_calendar_week(YEAR, week_iso_number)
-            week_number = f"{YEAR}{week_iso_number}"
+            year_iso_number = str(datetime.fromisoformat(record["fields"]["date"]).isocalendar()[0])
+            week_iso_number = str(datetime.fromisoformat(record["fields"]["date"]).isocalendar()[1])
+            if len(week_iso_number)==1:
+                week_iso_number=f"0{week_iso_number}"
+     
+
+            first_day, last_day = get_start_and_end_date_from_calendar_week(year_iso_number, week_iso_number)
+            week_number = f"{year_iso_number}{week_iso_number}"
             sum_by_week[week_number]["start_date"] = str(first_day)
             sum_by_week[week_number]["end_date"] = str(last_day)
 
@@ -127,11 +133,17 @@ class Vaximpact:
                     sum_by_week[week_number]["data"]["all"]["Ensemble"]["effectif"] += record["fields"]["effectif"]
 
             for a in record["fields"].keys():
-                if "date" in a or "vac_statut" in a or "effectif" in a or "region" in a or "age" in a:
+                if "date" in a or "vac_statut" in a or "effectif" in a or "region" in a or "age" in a :
                     continue
-                sum_by_week[week_number]["data"]["all"][vac_statut][a] += int(record["fields"][a])
+
+                if "pcr_pourcent_omicron" in a or "hc_pourcent_omicron" in a or "sc_pourcent_omicron" in a or "dc_pourcent_omicron" in a or "pcr_sympt_pourcent_omicron" in a:
+                    omicron_mean[week_number]["data"][age][vac_statut][a].append(float(record["fields"][a]))
+                    sum_by_week[week_number]["data"][age][vac_statut][a] = mean(omicron_mean[week_number]["data"][age][vac_statut][a])
+                    continue
+
+                sum_by_week[week_number]["data"]["all"][vac_statut][a] += float(record["fields"][a])
                 if self.toutelafrance:
-                    sum_by_week[week_number]["data"][age][vac_statut][a] += int(record["fields"][a])
+                    sum_by_week[week_number]["data"][age][vac_statut][a] += float(record["fields"][a])
 
         logger.debug(f"[SUCCESS] - Successfully built data table {self.api_name}.")
         return sum_by_week
