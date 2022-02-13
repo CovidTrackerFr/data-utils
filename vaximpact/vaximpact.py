@@ -137,6 +137,8 @@ class Vaximpact:
                     continue
 
                 if "pcr_pourcent_omicron" in a or "hc_pourcent_omicron" in a or "sc_pourcent_omicron" in a or "dc_pourcent_omicron" in a or "pcr_sympt_pourcent_omicron" in a:
+                    if record["fields"][a]=="NA":
+                        continue
                     omicron_mean[week_number]["data"][age][vac_statut][a].append(float(record["fields"][a]))
                     sum_by_week[week_number]["data"][age][vac_statut][a] = mean(omicron_mean[week_number]["data"][age][vac_statut][a])
                     continue
