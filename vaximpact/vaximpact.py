@@ -219,19 +219,24 @@ class Vaximpact:
                             )
                             if risque_relatif!=0:
                                 FER_exposes = round(((risque_relatif - 1) / risque_relatif) * 100, ROUND_DECIMAL)
-                            FER_population = round(
-                                (
-                                    FER_exposes
-                                    * (
-                                        age_data[groupe_2_label][f"{data_code}"]
-                                        / (
+                           
+                                FER_population = round(
+                                    (
+                                        FER_exposes
+                                        * (
                                             age_data[groupe_2_label][f"{data_code}"]
-                                            + age_data[groupe_1_label][f"{data_code}"]
+                                            / (
+                                                age_data[groupe_2_label][f"{data_code}"]
+                                                + age_data[groupe_1_label][f"{data_code}"]
+                                            )
                                         )
-                                    )
-                                ),
-                                ROUND_DECIMAL,
-                            )
+                                    ),
+                                    ROUND_DECIMAL,
+                                )
+                            else:
+                                FER_exposes=-1
+                                FER_population=-1
+                                
                             event_list[f"{data_name}"] = {
                                 "risque_relatif": risque_relatif,
                                 "FER_exposes": -1,
@@ -251,19 +256,22 @@ class Vaximpact:
                             )
                             if risque_relatif != 0:
                                 FER_exposes = round(((risque_relatif - 1) / risque_relatif) * 100, ROUND_DECIMAL)
-                            FER_population = round(
-                                (
-                                    FER_exposes
-                                    * (
-                                        age_data[groupe_2_label][f"{data_code}"]
-                                        / (
+                                FER_population = round(
+                                    (
+                                        FER_exposes
+                                        * (
                                             age_data[groupe_2_label][f"{data_code}"]
-                                            + age_data[groupe_1_label][f"{data_code}"]
+                                            / (
+                                                age_data[groupe_2_label][f"{data_code}"]
+                                                + age_data[groupe_1_label][f"{data_code}"]
+                                            )
                                         )
-                                    )
-                                ),
-                                ROUND_DECIMAL,
-                            )
+                                    ),
+                                    ROUND_DECIMAL,
+                                )
+                             else:
+                                FER_exposes=-1
+                                FER_POPULATION=-1
 
                         event_list[f"{data_name}"] = {
                             "risque_relatif": risque_relatif,
