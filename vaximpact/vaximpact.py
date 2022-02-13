@@ -217,7 +217,8 @@ class Vaximpact:
                                 / (age_data[groupe_1_label][f"{data_code}"] / age_data[groupe_1_label][f"{pop_ref}"]),
                                 ROUND_DECIMAL,
                             )
-                            FER_exposes = round(((risque_relatif - 1) / risque_relatif) * 100, ROUND_DECIMAL)
+                            if risque_relatif!=0:
+                                FER_exposes = round(((risque_relatif - 1) / risque_relatif) * 100, ROUND_DECIMAL)
                             FER_population = round(
                                 (
                                     FER_exposes
