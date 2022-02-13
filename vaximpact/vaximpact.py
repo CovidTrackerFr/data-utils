@@ -269,7 +269,7 @@ class Vaximpact:
                                     ),
                                     ROUND_DECIMAL,
                                 )
-                             else:
+                            else:
                                 FER_exposes=-1
                                 FER_POPULATION=-1
 
