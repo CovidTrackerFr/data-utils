@@ -1,11 +1,37 @@
 {
-  "last_updated": "18/02/2022 01:37:14",
+  "last_updated": "18/02/2022 02:02:17",
   "data_by_week": {
     "202122": {
       "start_date": "2021-05-31",
       "end_date": "2021-06-06",
       "data": {
         "all": {
+          "Primo dose efficace": {
+            "effectif": 70351.14,
+            "nb_pcr0": 48.349999999999994,
+            "sc": 7.62,
+            "nb_pcr": 2089.98,
+            "hc_pcr": 2.33,
+            "nb_pcr_sympt0": 15.96,
+            "hc": 2.61,
+            "nb_pcr_sympt": 230.19,
+            "sc_pcr": 1.87
+          },
+          "Ensemble": {
+            "effectif": 855769.75
+          },
+          "vaccinés sans rappel": {
+            "effectif": 76881.35,
+            "nb_pcr0": 55.27000000000001,
+            "sc": 0.14,
+            "nb_pcr": 2354.0699999999997,
+            "hc_pcr": 1.49,
+            "nb_pcr_sympt0": 12.79,
+            "hc": 3.4099999999999997,
+            "nb_pcr_sympt": 162.60000000000002,
+            "sc_pcr": 0.0,
+            "dc_pcr": 0
+          },
           "non vaccinés": {
             "nb_pcr0": 1034.02,
             "sc": 11.31,
@@ -16,32 +42,6 @@
             "nb_pcr_sympt": 2493.13,
             "sc_pcr": 8.27,
             "effectif": 665185.82
-          },
-          "vaccinés sans rappel": {
-            "nb_pcr0": 55.27000000000001,
-            "sc": 0.14,
-            "nb_pcr": 2354.07,
-            "hc_pcr": 1.49,
-            "nb_pcr_sympt0": 12.79,
-            "hc": 3.4099999999999997,
-            "nb_pcr_sympt": 162.60000000000002,
-            "sc_pcr": 0.0,
-            "effectif": 76881.35,
-            "dc_pcr": 0
-          },
-          "Primo dose efficace": {
-            "nb_pcr0": 48.349999999999994,
-            "sc": 7.62,
-            "nb_pcr": 2089.98,
-            "hc_pcr": 2.33,
-            "nb_pcr_sympt0": 15.96,
-            "hc": 2.61,
-            "nb_pcr_sympt": 230.19,
-            "sc_pcr": 1.87,
-            "effectif": 70351.14
-          },
-          "Ensemble": {
-            "effectif": 855769.75
           },
           "Primo dose récente": {
             "nb_pcr0": 51.31999999999999,
@@ -475,17 +475,6 @@
       "end_date": "2021-07-11",
       "data": {
         "all": {
-          "Primo dose récente": {
-            "nb_pcr0": 26.65,
-            "sc": 0.0,
-            "nb_pcr": 586.21,
-            "hc_pcr": 0.11000000000000001,
-            "nb_pcr_sympt0": 7.35,
-            "hc": 0.14,
-            "nb_pcr_sympt": 45.349999999999994,
-            "sc_pcr": 0.0,
-            "effectif": 27252.67
-          },
           "vaccinés sans rappel": {
             "nb_pcr0": 146.84,
             "sc": 0.0,
@@ -520,6 +509,17 @@
             "sc_pcr": 0.0,
             "effectif": 50262.97
           },
+          "Primo dose récente": {
+            "nb_pcr0": 26.65,
+            "sc": 0.0,
+            "nb_pcr": 586.21,
+            "hc_pcr": 0.11000000000000001,
+            "nb_pcr_sympt0": 7.35,
+            "hc": 0.14,
+            "nb_pcr_sympt": 45.349999999999994,
+            "sc_pcr": 0.0,
+            "effectif": 27252.67
+          },
           "Ensemble": {
             "effectif": 855320.0
           },
@@ -531,15 +531,10 @@
           }
         },
         "null": {
-          "Primo dose récente": {
-            "pcr_sympt_pourcent_omicron": 0.0,
-            "pcr_pourcent_omicron": 0.0,
-            "hc_pourcent_omicron": 66.66666666666667
-          },
           "vaccinés sans rappel": {
             "pcr_sympt_pourcent_omicron": 0.0,
-            "pcr_pourcent_omicron": 1.33,
             "hc_pourcent_omicron": 33.333333333333336,
+            "pcr_pourcent_omicron": 1.33,
             "hc_pcr": 0,
             "sc_pcr": 0,
             "nb_pcr0": 0,
@@ -555,6 +550,11 @@
             "pcr_sympt_pourcent_omicron": 0.0,
             "pcr_pourcent_omicron": 0.0,
             "hc_pourcent_omicron": 26.8525
+          },
+          "Primo dose récente": {
+            "pcr_sympt_pourcent_omicron": 0.0,
+            "pcr_pourcent_omicron": 0.0,
+            "hc_pourcent_omicron": 66.66666666666667
           },
           "vaccinés avec rappel": {
             "hc_pcr": 0,
@@ -764,6 +764,21 @@
       "end_date": "2021-08-01",
       "data": {
         "all": {
+          "vaccinés sans rappel": {
+            "effectif": 231222.6,
+            "nb_pcr0": 366.86,
+            "sc": 2.5,
+            "nb_pcr": 8819.610000000002,
+            "hc_pcr": 2.57,
+            "nb_pcr_sympt0": 129.62,
+            "hc": 3.2399999999999998,
+            "nb_pcr_sympt": 722.8599999999999,
+            "sc_pcr": 2.5,
+            "dc_pcr": 0
+          },
+          "Ensemble": {
+            "effectif": 855051.45
+          },
           "Primo dose efficace": {
             "nb_pcr0": 73.03,
             "sc": 0.0,
@@ -774,18 +789,6 @@
             "nb_pcr_sympt": 168.69,
             "sc_pcr": 0.0,
             "effectif": 56956.98
-          },
-          "vaccinés sans rappel": {
-            "nb_pcr0": 366.86,
-            "sc": 2.5,
-            "nb_pcr": 8819.610000000002,
-            "hc_pcr": 2.57,
-            "nb_pcr_sympt0": 129.62,
-            "hc": 3.2399999999999998,
-            "nb_pcr_sympt": 722.86,
-            "sc_pcr": 2.5,
-            "effectif": 231222.6,
-            "dc_pcr": 0
           },
           "Primo dose récente": {
             "nb_pcr0": 294.75,
@@ -809,9 +812,6 @@
             "sc_pcr": 17.5,
             "effectif": 496754.82
           },
-          "Ensemble": {
-            "effectif": 855051.45
-          },
           "vaccinés avec rappel": {
             "hc_pcr": 0,
             "sc_pcr": 0,
@@ -820,20 +820,20 @@
           }
         },
         "null": {
-          "Primo dose efficace": {
-            "pcr_sympt_pourcent_omicron": 16.132857142857144,
-            "pcr_pourcent_omicron": 15.294285714285715,
-            "hc_pourcent_omicron": 0.0
-          },
           "vaccinés sans rappel": {
             "pcr_sympt_pourcent_omicron": 17.490000000000002,
             "pcr_pourcent_omicron": 8.816428571428572,
-            "hc_pourcent_omicron": 0.0,
             "sc_pourcent_omicron": 0.0,
+            "hc_pourcent_omicron": 0.0,
             "hc_pcr": 0,
             "sc_pcr": 0,
             "nb_pcr0": 0,
             "dc_pcr": 0
+          },
+          "Primo dose efficace": {
+            "pcr_sympt_pourcent_omicron": 16.132857142857144,
+            "pcr_pourcent_omicron": 15.294285714285715,
+            "hc_pourcent_omicron": 0.0
           },
           "Primo dose récente": {
             "pcr_sympt_pourcent_omicron": 4.362857142857143,
@@ -871,17 +871,6 @@
             "sc_pcr": 20.14,
             "effectif": 470494.45
           },
-          "Primo dose récente": {
-            "nb_pcr0": 223.27,
-            "sc": 0.0,
-            "nb_pcr": 1804.0099999999998,
-            "hc_pcr": 14.410000000000002,
-            "nb_pcr_sympt0": 117.67999999999999,
-            "hc": 19.2,
-            "nb_pcr_sympt": 282.94,
-            "sc_pcr": 0.0,
-            "effectif": 58475.28
-          },
           "vaccinés sans rappel": {
             "nb_pcr0": 491.19,
             "sc": 3.86,
@@ -905,6 +894,17 @@
             "sc_pcr": 0.0,
             "effectif": 79023.65
           },
+          "Primo dose récente": {
+            "nb_pcr0": 223.27,
+            "sc": 0.0,
+            "nb_pcr": 1804.0099999999998,
+            "hc_pcr": 14.410000000000002,
+            "nb_pcr_sympt0": 117.67999999999999,
+            "hc": 19.2,
+            "nb_pcr_sympt": 282.94,
+            "sc_pcr": 0.0,
+            "effectif": 58475.28
+          },
           "Ensemble": {
             "effectif": 854962.1799999999
           },
@@ -922,11 +922,6 @@
             "pcr_pourcent_omicron": 9.248571428571429,
             "sc_pourcent_omicron": 0.0
           },
-          "Primo dose récente": {
-            "pcr_sympt_pourcent_omicron": 16.394285714285715,
-            "hc_pourcent_omicron": 0.0,
-            "pcr_pourcent_omicron": 10.928571428571429
-          },
           "vaccinés sans rappel": {
             "pcr_sympt_pourcent_omicron": 4.038571428571428,
             "pcr_pourcent_omicron": 3.4785714285714286,
@@ -941,6 +936,11 @@
             "pcr_sympt_pourcent_omicron": 7.994285714285714,
             "hc_pourcent_omicron": 0.0,
             "pcr_pourcent_omicron": 8.14
+          },
+          "Primo dose récente": {
+            "pcr_sympt_pourcent_omicron": 16.394285714285715,
+            "pcr_pourcent_omicron": 10.928571428571429,
+            "hc_pourcent_omicron": 0.0
           },
           "vaccinés avec rappel": {
             "hc_pcr": 0,
@@ -1541,7 +1541,7 @@
       "data": {
         "all": {
           "vaccinés sans rappel": {
-            "nb_pcr0": 79.21,
+            "nb_pcr0": 79.21000000000001,
             "sc": 0.28,
             "nb_pcr": 6294.99,
             "hc_pcr": 6.0,
@@ -1550,18 +1550,6 @@
             "nb_pcr_sympt": 682.71,
             "sc_pcr": 0.0,
             "effectif": 422562.64,
-            "dc_pcr": 0
-          },
-          "vaccinés avec rappel": {
-            "nb_pcr0": 0.0,
-            "sc": 0.0,
-            "nb_pcr": 19.909999999999997,
-            "hc_pcr": 0.0,
-            "nb_pcr_sympt0": 0.0,
-            "hc": 0.0,
-            "nb_pcr_sympt": 0.0,
-            "sc_pcr": 0.0,
-            "effectif": 1474.27,
             "dc_pcr": 0
           },
           "Primo dose efficace": {
@@ -1574,6 +1562,18 @@
             "nb_pcr_sympt": 96.42999999999999,
             "sc_pcr": 0.0,
             "effectif": 43749.1
+          },
+          "vaccinés avec rappel": {
+            "nb_pcr0": 0.0,
+            "sc": 0.0,
+            "nb_pcr": 19.909999999999997,
+            "hc_pcr": 0.0,
+            "nb_pcr_sympt0": 0.0,
+            "hc": 0.0,
+            "nb_pcr_sympt": 0.0,
+            "sc_pcr": 0.0,
+            "effectif": 1474.27,
+            "dc_pcr": 0
           },
           "non vaccinés": {
             "nb_pcr0": 182.38,
@@ -2962,7 +2962,7 @@
       "data": {
         "all": {
           "non vaccinés": {
-            "nb_pcr0": 3653.3300000000004,
+            "nb_pcr0": 3653.33,
             "sc": 10.180000000000001,
             "nb_pcr": 8182.510000000001,
             "hc_pcr": 57.309999999999995,
@@ -2972,20 +2972,19 @@
             "sc_pcr": 7.5,
             "effectif": 308529.3
           },
-          "vaccinés avec rappel": {
-            "nb_pcr0": 709.6199999999999,
-            "sc": 4.15,
-            "nb_pcr": 5394.439999999999,
-            "hc_pcr": 4.720000000000001,
-            "nb_pcr_sympt0": 262.75,
-            "hc": 5.619999999999999,
-            "nb_pcr_sympt": 652.83,
-            "sc_pcr": 3.66,
-            "effectif": 138195.7,
-            "dc_pcr": 0
+          "Primo dose récente": {
+            "nb_pcr0": 78.61,
+            "sc": 0.12,
+            "nb_pcr": 197.37,
+            "hc_pcr": 2.15,
+            "nb_pcr_sympt0": 27.22,
+            "hc": 2.15,
+            "nb_pcr_sympt": 38.88,
+            "sc_pcr": 0.04,
+            "effectif": 4351.95
           },
           "Primo dose efficace": {
-            "nb_pcr0": 181.49,
+            "nb_pcr0": 181.48999999999998,
             "sc": 0.2,
             "nb_pcr": 606.07,
             "hc_pcr": 7.15,
@@ -2996,30 +2995,31 @@
             "effectif": 17122.67
           },
           "vaccinés sans rappel": {
-            "nb_pcr0": 5300.989999999999,
-            "sc": 11.309999999999999,
-            "nb_pcr": 16130.7,
+            "nb_pcr0": 5300.99,
+            "sc": 11.31,
+            "nb_pcr": 16130.700000000004,
             "hc_pcr": 47.8,
             "nb_pcr_sympt0": 2162.6900000000005,
             "hc": 52.330000000000005,
             "nb_pcr_sympt": 3442.749999999999,
-            "sc_pcr": 9.739999999999998,
+            "sc_pcr": 9.74,
             "effectif": 384911.7,
             "dc_pcr": 0
           },
-          "Primo dose récente": {
-            "nb_pcr0": 78.61,
-            "sc": 0.12,
-            "nb_pcr": 197.37,
-            "hc_pcr": 2.15,
-            "nb_pcr_sympt0": 27.22,
-            "hc": 2.15,
-            "nb_pcr_sympt": 38.879999999999995,
-            "sc_pcr": 0.04,
-            "effectif": 4351.95
-          },
           "Ensemble": {
             "effectif": 853111.3200000001
+          },
+          "vaccinés avec rappel": {
+            "effectif": 138195.7,
+            "nb_pcr0": 709.6199999999999,
+            "sc": 4.15,
+            "nb_pcr": 5394.439999999999,
+            "hc_pcr": 4.720000000000001,
+            "nb_pcr_sympt0": 262.75000000000006,
+            "hc": 5.619999999999999,
+            "nb_pcr_sympt": 652.83,
+            "sc_pcr": 3.66,
+            "dc_pcr": 0
           }
         },
         "null": {
@@ -3029,15 +3029,9 @@
             "pcr_pourcent_omicron": 26.69857142857143,
             "sc_pourcent_omicron": 0.0
           },
-          "vaccinés avec rappel": {
-            "pcr_sympt_pourcent_omicron": 72.44190476190477,
-            "pcr_pourcent_omicron": 54.985238095238095,
-            "sc_pourcent_omicron": 0.0,
-            "hc_pourcent_omicron": 21.421666666666667,
-            "hc_pcr": 0,
-            "sc_pcr": 0,
-            "nb_pcr0": 0,
-            "dc_pcr": 0
+          "Primo dose récente": {
+            "pcr_sympt_pourcent_omicron": 14.971428571428572,
+            "pcr_pourcent_omicron": 22.71857142857143
           },
           "Primo dose efficace": {
             "pcr_sympt_pourcent_omicron": 43.247142857142855,
@@ -3054,9 +3048,15 @@
             "nb_pcr0": 0,
             "dc_pcr": 0
           },
-          "Primo dose récente": {
-            "pcr_sympt_pourcent_omicron": 14.971428571428572,
-            "pcr_pourcent_omicron": 22.71857142857143
+          "vaccinés avec rappel": {
+            "pcr_sympt_pourcent_omicron": 72.44190476190477,
+            "pcr_pourcent_omicron": 54.985238095238095,
+            "sc_pourcent_omicron": 0.0,
+            "hc_pourcent_omicron": 21.421666666666667,
+            "hc_pcr": 0,
+            "sc_pcr": 0,
+            "nb_pcr0": 0,
+            "dc_pcr": 0
           }
         }
       }
